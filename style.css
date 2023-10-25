@@ -1,9 +1,19 @@
 body{
-  background-color: black;
+  background-image: url(img/background/sala.jpg);
+  background-size: cover;
+  background-repeat: repeat;
   padding: 3em;
 }
+.characterScreen{
+  height: 35vw;
+  display: flex;
+  justify-content: center;
+}
+.characterScreen img{
+  max-height: 45vw;
+}
 .text{
-  font-size: 6vw;
+  font-size: 2vw;
   word-spacing: 0.2em;
   margin: 0 auto;
   background-color: white;
@@ -14,7 +24,7 @@ body{
 }
 .corner{
   position: absolute;
-  width: 10vw;
+  width: 5vw;
   right: 2vw;
   bottom: 0;
   transform: translateY(80%);
@@ -29,4 +39,8 @@ body{
 
 .text span.green{
   color: green;
+}
+.text span.red{
+  color: red;
+  font-style: bold;
 }

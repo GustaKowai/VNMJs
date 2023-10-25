@@ -9,7 +9,8 @@ var speeds = {
 var textLines = [
   { string: "Olá.", speed: speeds.normal},
   { string: "Tudo bom?", speed: speeds.normal, classes:["green"]},
-  { string: "Você é um cabeça de pudim!", speed: speeds.fast },
+  { string: "O que você faz aqui?", speed: speeds.fast },
+  { string: "Não lembro de ter te chamado.", speed: speeds.slow, classes:["red"]}
 ]
 
 var letras = [];
