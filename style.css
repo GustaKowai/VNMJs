@@ -1,7 +1,8 @@
 body{
-  background-image: url(img/background/sala.jpg);
+  background-image: url(img/background/bg1.jpg);
   background-size: cover;
   background-repeat: repeat;
+  background-position-y: center;
   padding: 3em;
 }
 .characterScreen{
