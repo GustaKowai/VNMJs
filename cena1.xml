@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Cena>
+  <rota s="1">
+    <dialogos>
+      <personagem>Katarina</personagem>
+      <text>Olá</text>
+      <speed>fast</speed>
+      <humor>mad</humor>
+      <classes>red</classes>
+    </dialogos>
+    <escolhas>
+      <escolha>
+        <texto>oi</texto>
+        <trust>1</trust>
+        <paraCena>2</paraCena>
+      </escolha>
+    </escolhas>
+  </rota>
+<!--  <rota s="2">
+    <dialogos>
+      <personagem></personagem>
+      <text></text>
+      <speed></speed>
+      <humor></humor>
+      <classes></classes>
+    </dialogos>
+    <escolhas>
+      <escolha>
+        <texto></texto>
+        <trust></trust>
+        <paraCena></paraCena>
+      </escolha>
+    </escolhas>
+  </rota>-->
+</Cena>
