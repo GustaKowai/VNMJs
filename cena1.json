@@ -1,0 +1,31 @@
+{"cena":{
+  "id": 1,
+  "dialogos":[
+    {
+      "personagem": "Katarina",
+      "texto": "Olá",
+      "speed": "fast",
+      "humor": "mad",
+      "classes":"red"
+    }
+  ],
+    "escolhas":[
+      {
+        "escolha 1": "Oi",
+        "trust":"1",
+        "paraCena": "2",
+        "speed": "normal",
+        "humor": "normal",
+        "classes": ""
+      },
+      {
+        "escolha 2": "vai embora",
+        "trust":"-1",
+        "paraCena": "3",
+        "speed": "fast",
+        "humor": "mad",
+        "classes": "red"
+      }
+    ]
+  }
+}
