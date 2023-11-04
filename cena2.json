@@ -1,0 +1,14 @@
+{
+  "cena": {
+    "id": 1,
+    "dialogos": {
+      "personagem": "Katarina",
+      "texto": [
+        { "string": "E ai?.", "speed": 80 },
+        { "string": "Vai continuar olhando?", "speed": 80, "classes": ["red"] },
+        { "string": "Não que eu me importe com isso.", "speed": 40, "classes":["green"] },
+        { "string": "Afinal, qual é o seu problema?", "speed": 120 }
+      ]
+    }
+  }
+}

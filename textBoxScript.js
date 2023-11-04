@@ -6,82 +6,78 @@ var speeds = {
   fast: 40
 }
 
-var textLines = [
-  { string: "Olá.", speed: speeds.normal},
-  { string: "Tudo bom?", speed: speeds.normal, classes:["green"]},
-  { string: "O que você faz aqui?", speed: speeds.fast },
-  { string: "Não lembro de ter te chamado.", speed: speeds.slow, classes:["red"]}
-]
 //Linhas de texto de falas
 var letras = [];
+function textToBox(textLines) {
 
-textLines.forEach((line,index)=> {
-  if (index < textLines.length-1){
-    line.string += "  ";
-  }
-  line.string.split("").forEach(letra=>{
-    var span = document.createElement("span");
-    span.textContent = letra;
-    container.appendChild(span);
-    letras.push({
-      span:span,
-      isSpace: letra === " ",
-      delayAfter: line.speed,
-      classes: line.classes || [],
+  textLines.forEach((line, index) => {
+    if (index < textLines.length - 1) {
+      line.string += "  ";
+    }
+    line.string.split("").forEach(letra => {
+      var span = document.createElement("span");
+      span.textContent = letra;
+      container.appendChild(span);
+      letras.push({
+        span: span,
+        isSpace: letra === " ",
+        delayAfter: line.speed,
+        classes: line.classes || [],
+      })
     })
   })
-})
+
+//textToBox(textLines);
+//textToBox(textLines2);
 //faz a ação de escrever
-function changeSpriteChar(mood){
-  console.log(mood)
-  if(mood == "mad"){
+function changeSpriteChar(mood) {
+    let activeMood = "0";
+  if (mood == "mad") {
     activeMood = "img/personagens/char1/5.gif"
   }
-  if(mood == "happy"){
+  if (mood == "happy") {
     activeMood = "img/personagens/char1/2.gif"
+    console.log(mood)
   }
-  if(mood == "normal"){
+  if (mood == "normal") {
     activeMood = "img/personagens/char1/1.gif"
   }
-  console.log(mood)
- 
-  document.getElementById("activeChar").src = activeMood;  
+
+  document.getElementById("activeChar").src = activeMood;
 }
 //muda o humor do personagem
 
-function revealOneCharacter(list){
-  var next = list.splice(0,1)[0];
+function revealOneCharacter(list) {
+  var next = list.splice(0, 1)[0];
   next.span.classList.add("revealed");
-    next.classes.forEach((c)=> {
-      next.span.classList.add(c);
-    });
+  next.classes.forEach((c) => {
+    next.span.classList.add(c);
+  });
   var delay = next.isSpace ? 0 : next.delayAfter;
-  if (list.length > 0){
-    setTimeout(function(){
+  if (list.length > 0) {
+    setTimeout(function () {
       revealOneCharacter(list);
-    },delay)
+      console.log(delay)
+    }, delay)
   }
   //checa a mudança de humor:
   let spanClassList = next.span.classList;
   let hasRed = spanClassList.contains("red");
   let hasGreen = spanClassList.contains("green");
-  if (hasGreen){
-      changeSpriteChar("happy")
-      console.log("Feliz")
+  if (hasGreen) {
+    changeSpriteChar("happy");
   }
- 
-  if (hasRed){
-      changeSpriteChar("mad");
-      console.log("Puto")
+
+  if (hasRed) {
+    changeSpriteChar("mad");
   }
-  if (!hasGreen && !hasRed){
-    changeSpriteChar("normal")
-    console.log("normal")
+  if (!hasGreen && !hasRed) {
+    changeSpriteChar("normal");
   }
- 
+
 }
 
-
 revealOneCharacter(letras);
-
-
+}
+export{textToBox};
+//,changeSpriteChar,revealOneCharacter
