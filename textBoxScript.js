@@ -14,6 +14,9 @@ var letras = [];
 function textToBox(cena) {
   var activeChar = cena.dialogos.personagem
   var textLines = cena.dialogos.texto;
+  var backgroundImg = cena.background;
+  var backgroundUrl = "url('img/background/"+backgroundImg+".jpg')"
+  document.body.style.backgroundImage = backgroundUrl;
   textLines.forEach((line, index) => {
     if (index < textLines.length - 1) {
       line.string += "  ";

@@ -1,6 +1,7 @@
 {
   "cena": {
     "id": 1,
+    "background":"quartel",
     "dialogos": {
       "personagem": "Katarina",
       "texto":[
