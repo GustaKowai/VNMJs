@@ -1,15 +1,19 @@
 var container = document.querySelector(".text")
-
 var speeds = {
   slow: 120,
   normal: 80,
   fast: 40
 }
 
+function removeLastText(){
+    var lastText = document.querySelectorAll('.revealed');
+    lastText.forEach(revealed=>{revealed.remove();});
+}
 //Linhas de texto de falas
 var letras = [];
-function textToBox(textLines) {
-
+function textToBox(cena) {
+  var activeChar = cena.dialogos.personagem
+  var textLines = cena.dialogos.texto;
   textLines.forEach((line, index) => {
     if (index < textLines.length - 1) {
       line.string += "  ";
@@ -31,16 +35,15 @@ function textToBox(textLines) {
 //textToBox(textLines2);
 //faz a ação de escrever
 function changeSpriteChar(mood) {
-    let activeMood = "0";
+  var activeMood = "0";
   if (mood == "mad") {
-    activeMood = "img/personagens/char1/5.gif"
+    activeMood = "img/personagens/"+activeChar+"/5.gif"
   }
   if (mood == "happy") {
-    activeMood = "img/personagens/char1/2.gif"
-    console.log(mood)
+    activeMood = "img/personagens/"+activeChar+"/2.gif"
   }
   if (mood == "normal") {
-    activeMood = "img/personagens/char1/1.gif"
+    activeMood = "img/personagens/"+activeChar+"/1.gif"
   }
 
   document.getElementById("activeChar").src = activeMood;
@@ -57,21 +60,22 @@ function revealOneCharacter(list) {
   if (list.length > 0) {
     setTimeout(function () {
       revealOneCharacter(list);
-      console.log(delay)
+      //console.log(delay)
     }, delay)
   }
   //checa a mudança de humor:
   let spanClassList = next.span.classList;
-  let hasRed = spanClassList.contains("red");
-  let hasGreen = spanClassList.contains("green");
-  if (hasGreen) {
+  let isMad = spanClassList.contains("mad");
+  let isHappy = spanClassList.contains("happy");
+  let isNormal = spanClassList.contains("normal");
+  if (isHappy) {
     changeSpriteChar("happy");
   }
 
-  if (hasRed) {
+  if (isMad) {
     changeSpriteChar("mad");
   }
-  if (!hasGreen && !hasRed) {
+  if (isNormal) {
     changeSpriteChar("normal");
   }
 
@@ -79,5 +83,5 @@ function revealOneCharacter(list) {
 
 revealOneCharacter(letras);
 }
-export{textToBox};
+export{textToBox,removeLastText};
 //,changeSpriteChar,revealOneCharacter
