@@ -1,0 +1,35 @@
+{
+  "cena": {
+    "id": 1,
+    "dialogos": {
+      "personagem": "gatovaldo",
+      "texto": [
+        { "string": "Saudações, (nome 1) e (nome2),  espero poder contar com vocês nessa...", "speed": 80 },
+        { "string": "Como já sabem, em breve todos nós teremos grandes missões a serem cumpridas.", "speed": 80},
+        { "string": "Será um grande evento, e de acordo com as minhas contas nossa chance de sucesso é de 86,4%!", "speed": 80 }
+      ]
+    },
+    "escolhas": {
+      "escolha 1": {
+        "texto": [
+          { "string": "Olá.", "speed": "speeds.normal" },
+          { "string": "Tudo bom?", "speed": "speeds.normal", "classes": ["green"] },
+          { "string": "O que você faz aqui?", "speed": "speeds.fast" },
+          { "string": "Não lembro de ter te chamado.", "speed": "speeds.slow", "classes": ["red"] }
+        ],
+        "trust": "-1",
+        "paraCena": "3"
+      },
+      "escolha 2": {
+        "texto": [
+          { "string": "Olá.", "speed": "speeds.normal" },
+          { "string": "Tudo bom?", "speed": "speeds.normal", "classes": ["green"] },
+          { "string": "O que você faz aqui?", "speed": "speeds.fast" },
+          { "string": "Não lembro de ter te chamado.", "speed": "speeds.slow", "classes": ["red"] }
+        ],
+        "trust": "-1",
+        "paraCena": "3"
+      }
+    }
+  }
+}
