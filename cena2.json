@@ -1,14 +1,55 @@
 {
   "cena": {
     "id": 1,
+    "background":"bg1",
     "dialogos": {
+      "numeroEscolhas":2,
       "personagem": "Katarina",
-      "texto": [
+      "texto":[
+        { "string": " ", "speed": 80, "classes": ["normal"] },
         { "string": "E ai?.", "speed": 80 },
+        { "string": " ", "speed": 80, "classes": ["mad"] },
         { "string": "Vai continuar olhando?", "speed": 80, "classes": ["red"] },
+        { "string": " ", "speed": 80, "classes": ["happy"] },
         { "string": "Não que eu me importe com isso.", "speed": 40, "classes":["green"] },
-        { "string": "Afinal, qual é o seu problema?", "speed": 120 }
+        { "string": "Afinal, qual é o seu problema?", "speed": 80 }
       ]
+    },
+    "escolhas": {
+      "escolha1": {
+        "texto": [
+          { "string": "Olá.", "speed": 200 },
+          { "string": "Tudo bom?", "speed": 200, "classes": ["green"] },
+          { "string": "O que você faz aqui?", "speed": 160 },
+          { "string": "Não lembro de ter te chamado.", "speed": 280, "classes": ["red"] }
+        ],
+        "trust": "-1",
+        "paraCena": "3"
+      },
+      "escolha2": {
+        "texto": [
+          { "string": "Olá.", "speed": "speeds.normal" },
+          { "string": "Tudo bom?", "speed": "speeds.normal", "classes": ["green"] },
+          { "string": "O que você faz aqui?", "speed": "speeds.fast" },
+          { "string": "Não lembro de ter te chamado.", "speed": "speeds.slow", "classes": ["red"] }
+        ],
+        "trust": "-1",
+        "paraCena": "3"
+      },
+      "escolha3": {
+           "texto": [
+          { "string": "Q?" }
+        ],
+        "trust": "-1",
+        "paraCena": "-"
+      },
+      "escolha4": {
+           "texto": [
+          { "string": "..." }
+        ],
+        "trust": "-1",
+        "paraCena": "-"
+      }
     }
   }
 }

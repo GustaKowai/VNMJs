@@ -1,8 +1,9 @@
 {
   "cena": {
     "id": 1,
-    "background":"quartel",
+    "background":"bg1",
     "dialogos": {
+      "numeroEscolhas":2,
       "personagem": "Katarina",
       "texto":[
         { "string": " ", "speed": 80, "classes": ["normal"] },
@@ -15,7 +16,7 @@
       ]
     },
     "escolhas": {
-      "escolha 1": {
+      "escolha1": {
         "texto": [
           { "string": "Olá.", "speed": 200 },
           { "string": "Tudo bom?", "speed": 200, "classes": ["green"] },
@@ -25,7 +26,7 @@
         "trust": "-1",
         "paraCena": "3"
       },
-      "escolha 2": {
+      "escolha2": {
         "texto": [
           { "string": "Olá.", "speed": "speeds.normal" },
           { "string": "Tudo bom?", "speed": "speeds.normal", "classes": ["green"] },
@@ -34,6 +35,20 @@
         ],
         "trust": "-1",
         "paraCena": "3"
+      },
+      "escolha3": {
+           "texto": [
+          { "string": "Q?" }
+        ],
+        "trust": "-1",
+        "paraCena": "-"
+      },
+      "escolha4": {
+           "texto": [
+          { "string": "..." }
+        ],
+        "trust": "-1",
+        "paraCena": "-"
       }
     }
   }

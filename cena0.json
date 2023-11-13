@@ -3,33 +3,44 @@
     "id": 1,
     "background":"quartel",
     "dialogos": {
-      "personagem": "gatovaldo",
+      "numeroEscolhas":"4",
+      "personagem": "Gatovaldo",
       "texto": [
+        { "string": " ", "speed": 80, "classes": ["normal"] },
         { "string": "Saudações, (nome 1) e (nome2),  espero poder contar com vocês nessa...", "speed": 80 },
-        { "string": "Como já sabem, em breve todos nós teremos grandes missões a serem cumpridas.", "speed": 80},
-        { "string": "Será um grande evento, e de acordo com as minhas contas nossa chance de sucesso é de 86,4%!", "speed": 80 }
+        { "string": "como já sabem, em breve todos nós teremos grandes missões a serem cumpridas.", "speed": 80},
+        { "string": " ", "speed": 80, "classes": ["happy"] },
+        { "string": "será um grande evento, e de acordo com as minhas contas nossa chance de sucesso é de 86,4%!", "speed": 80,"classes": ["green"] }
       ]
     },
     "escolhas": {
-      "escolha 1": {
+      "escolha1": {
         "texto": [
-          { "string": "Olá.", "speed": "speeds.normal" },
-          { "string": "Tudo bom?", "speed": "speeds.normal", "classes": ["green"] },
-          { "string": "O que você faz aqui?", "speed": "speeds.fast" },
-          { "string": "Não lembro de ter te chamado.", "speed": "speeds.slow", "classes": ["red"] }
+          { "string": "Isso não parece uma boa ideia" }
         ],
         "trust": "-1",
-        "paraCena": "3"
+        "paraCena": "2"
       },
-      "escolha 2": {
+      "escolha2": {
         "texto": [
-          { "string": "Olá.", "speed": "speeds.normal" },
-          { "string": "Tudo bom?", "speed": "speeds.normal", "classes": ["green"] },
-          { "string": "O que você faz aqui?", "speed": "speeds.fast" },
-          { "string": "Não lembro de ter te chamado.", "speed": "speeds.slow", "classes": ["red"] }
+          { "string": "Concordo","classes": ["green"] }
         ],
         "trust": "-1",
-        "paraCena": "3"
+        "paraCena": "1"
+      },
+      "escolha3": {
+           "texto": [
+          { "string": "Q?" }
+        ],
+        "trust": "-1",
+        "paraCena": "-"
+      },
+      "escolha4": {
+           "texto": [
+          { "string": "..." }
+        ],
+        "trust": "-1",
+        "paraCena": "-"
       }
     }
   }

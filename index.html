@@ -10,6 +10,12 @@
   <div class="characterScreen">
     <img src="img/personagens/Katarina/1.gif" alt="Personagem ativo" id="activeChar">
   </div>  
+  <div class="caixa-escolhas">
+    <button id="escolha1" class="escolha" onclick="clicado()">Eu não acho que isso seja uma boa ideia</button>
+    <button id="escolha2" disabled class="escolha">Botao 2</button>
+    <button id="escolha3" disabled class="escolha">Botao 3</button>
+    <button id="escolha4" disabled class="escolha">Botao 4</button>
+  </div>
   <div class="text">
     <svg class="corner" viewbox = "0 0 65 62" fill="none" xmlns="http//www.w3.org/2000/svg">
       <path d="M35 3.5L65 6.5V62L0 0L35 3.5Z" fill="white"/>
@@ -19,8 +25,15 @@
   
   <button id="nextText">>>></button>
 
+  <script>
+    function clicado() {
+      alert("clicou");
+      document.getElementById("escolha2").disabled = false;
+    }
+</script>
+
   <!--<script src="jsonToLine.js"></script>
   <script src="textBoxScript.js"></script>-->
-  <script type="module" src="jsonToScene.js"></script>
+  <!--<script type="module" src="jsonToScene.js"></script>-->
 </body>
 </html>
