@@ -1,0 +1,47 @@
+{
+    "cena": {
+        "id": 1,
+        "background":"deserto",
+        "dialogos": {
+          "numeroBaloes":2,
+          "numeroEscolhas":4,
+          "personagem": "Katarina",
+          "texto": [[
+            { "string": " ", "speed": 60, "classes": ["default"] },
+            { "string": "Não sei se vai ter muito o que fazer com isso aqui, mas bora tentar, toma, ve se você acha alguma coisa", "speed": 60 }
+          ],[
+            { "string": "*Você observa pela mira, e avista algumas coisas*", "speed": 60, "classes": ["Narrador"] }
+            ]]
+        },
+        "escolhas": {
+          "escolha1": {
+            "texto": [
+              { "string": "Atirar em um urubu voando" }
+            ],
+            "trust": "0",
+            "paraCena": "1a11"
+          },
+          "escolha2": {
+            "texto": [
+              { "string": "Atirar no posto de gasolina" }
+            ],
+            "trust": "0",
+            "paraCena": "1b11"
+          },
+          "escolha3": {
+               "texto": [
+              { "string": "Atirar em um animal morto" }
+            ],
+            "trust": "0",
+            "paraCena": "1c11"
+          },
+          "escolha4": {
+               "texto": [
+              { "string": "Não atirar" }
+            ],
+            "trust": "0",
+            "paraCena": "1d11"
+          }
+        }
+      }
+}

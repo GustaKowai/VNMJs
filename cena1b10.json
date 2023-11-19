@@ -1,0 +1,78 @@
+{
+    "cena": {
+        "id": 1,
+        "background":"deserto",
+        "dialogos": {
+          "numeroBaloes":14,
+          "numeroEscolhas":2,
+          "personagem": "Katarina",
+          "texto": [[
+            { "string": " ", "speed": 60, "classes": ["meh"] },
+            { "string": "Poxa, mas elas estao tao gostosinhas...", "speed": 60 }
+          ],[
+            { "string": " ", "speed": 60, "classes": ["Narrador"] },
+            { "string": "*Ela pega uma sabor rabo de rato*", "speed": 60, "classes": ["Narrador"] }
+          ],[
+            { "string": " ", "speed": 60, "classes": ["smirk"] },
+            { "string": "Você deve ter paladar infantil", "speed": 60 }
+          ],[
+            { "string": "*Um som de veículo começa a ser ouvido na distância*", "speed": 60, "classes": ["Narrador"] }
+          ],[
+            { "string": " ", "speed": 60, "classes": ["surpresa"] },
+            { "string": "Espera! acho que é o nosso caminhão se aproximando", "speed": 60 }
+          ],[
+            { "string": "*Você observa um caminhão de sorvete se aproximando*", "speed": 60, "classes": ["Narrador"] }
+          ],[
+            { "string": " ", "speed": 60, "classes": ["feliz"] },
+            { "string": "É isso mesmo! bora descer", "speed": 60 }
+          ],[
+            { "string": "*Vocês descem a torre, a escada é bem precária, você tem a sensação de quase morte ao pisar em um degrau e ele quebrar*", "speed": 60, "classes": ["Narrador"] }
+          ],[
+            { "string": " ", "speed": 60, "classes": ["default"] },
+            { "string": "Olha, é o seguinte, eu sei que eu sou uma das financiadoras disso daqui, e que você provavelmente questiona muito as minhas decisões e não confia em mim, mas eu peço, deixa que eu lido com isso daqui, siga o meu plano.", "speed": 60 }
+          ],[
+            { "string": "*Ela abre a mochila, e te dá uma garrafa de ketchup*", "speed": 60, "classes": ["Narrador"] }
+          ],[
+            { "string": "Você sabe o que fazer", "speed": 60 }
+          ],[
+            { "string": "*Você não sabe o que fazer*", "speed": 60, "classes": ["Narrador"] }
+          ],[
+            { "string": " ", "speed": 60, "classes": ["feliz"] },
+            { "string": "Ok, vejo na sua cara que você não sabe o que fazer, vai lá na estrada, deita, e joga bastante ketchup na sua perna e perto dela, você vai chorar e gritar de dor, pedindo por ajuda", "speed": 60 }
+          ],[
+            { "string": " ", "speed": 60, "classes": ["smirk"] },
+            { "string": "Se ele acelerar e passar por cima de você, teremos certeza que eles trabalham para o governo e estão preparados para lidar com emboscadas, se ele parar para te ajudar, a gente vai saber que ele provavelmente é só um motorista inocente, você irá dizer que é uma pegadinha, e tudo ficará certo, pode ser?", "speed": 60 }
+            ]]
+        },
+        "escolhas": {
+          "escolha1": {
+            "texto": [
+              { "string": "Me sinto feliz de morrer pela causa!" }
+            ],
+            "trust": "0",
+            "paraCena": "1a12"
+          },
+          "escolha2": {
+            "texto": [
+              { "string": "Você quer me usar como um sacrifício humano?" }
+            ],
+            "trust": "0",
+            "paraCena": "1b12"
+          },
+          "escolha3": {
+               "texto": [
+              { "string": "-" }
+            ],
+            "trust": "0",
+            "paraCena": "-"
+          },
+          "escolha4": {
+               "texto": [
+              { "string": "-" }
+            ],
+            "trust": "0",
+            "paraCena": "-"
+          }
+        }
+      }
+}

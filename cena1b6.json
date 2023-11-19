@@ -1,0 +1,53 @@
+{
+    "cena": {
+        "id": 1,
+        "background":"deserto",
+        "dialogos": {
+          "numeroBaloes":4,
+          "numeroEscolhas":4,
+          "personagem": "Katarina",
+          "texto": [[
+            { "string": " ", "speed": 60, "classes": ["default"] },
+            { "string": "*você coloca ela no pote, ela entra sem resistir*", "speed": 60, "classes": ["Narrador"] }
+          ],[
+            { "string": " ", "speed": 60, "classes": ["muitofeliz"] },
+            { "string": "CARALHO, QUE FODA, É UMA DEMONIUS DOSINFERNUS, nunca tinha visto uma dessa espécie, muito obrigada! vou levar ela para o meu zoológico particular.", "speed": 60 }
+          ],[
+            { "string": " ", "speed": 60, "classes": ["default"] },
+            { "string": "Enfim, bora entrar nessa loja conveniente", "speed": 60 }
+          ],[  
+            { "string": "*Vocês entram na loja, parece ter algumas coisas para explorar*", "speed": 60, "classes": ["Narrador"] }           
+          ]]
+        },
+        "escolhas": {
+          "escolha1": {
+            "texto": [
+              { "string": "Procurar nas prateleiras" }
+            ],
+            "trust": "0",
+            "paraCena": "1a7"
+          },
+          "escolha2": {
+            "texto": [
+              { "string": "Procurar no caixa" }
+            ],
+            "trust": "0",
+            "paraCena": "1b7"
+          },
+          "escolha3": {
+               "texto": [
+              { "string": "Procurar no banheiro" }
+            ],
+            "trust": "0",
+            "paraCena": "1c7"
+          },
+          "escolha4": {
+               "texto": [
+              { "string": "Procurar no escritório" }
+            ],
+            "trust": "0",
+            "paraCena": "1d7"
+          }
+        }
+      }
+}

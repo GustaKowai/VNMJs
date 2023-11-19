@@ -1,0 +1,60 @@
+{
+    "cena": {
+        "id": 1,
+        "background":"deserto",
+        "dialogos": {
+          "numeroBaloes":8,
+          "numeroEscolhas":2,
+          "personagem": "Katarina",
+          "texto": [[
+            { "string": " ", "speed": 60, "classes": ["surpresa"] },
+            { "string": "Claro que não! só estava zoando com a sua cara, eu dou um jeito pra ele não fazer isso, mas fique preparada para correr caso precise", "speed": 60 }
+          ],[
+            { "string": "*Você sente que não tem outra alternativa a não ser a confiar nela, flashs da sua vida inteira passam pela sua cabeça, e o caminhão ainda nem está vindo na sua direção*", "speed": 60 , "classes": ["Narrador"]}
+          ],[
+            { "string": "*Então você vai, deita na rodovia, e espalha o ketchup porcamente na sua perna, só uma pessoa muito ingênua mesmo cairia nisso*", "speed": 60 , "classes": ["Narrador"]}
+          ],[
+            { "string": "*O caminhão se aproxima cada vez mais, você sente um frio na espinha, mas começa a gritar por ajuda, sua atuação é terrível, nem a alma mais inocente da terra seria capaz de acreditar nisso*", "speed": 60 , "classes": ["Narrador"]}           
+          ],[
+            { "string": "*Ele chega a uma distância consideravelmente perto de ti, ele se aproxima, e de repente...*", "speed": 60 , "classes": ["Narrador"]}            
+          ],[
+            { "string": "*ele para*", "speed": 60 , "classes": ["Narrador"]}            
+          ],[
+            { "string": "*Um senhorzinho muito fofo sai da cabine*", "speed": 60 , "classes": ["Narrador"] }          
+          ],[
+            { "string": " ", "speed": 60, "classes": ["Vovo"] },
+            { "string": "Meu Deus! você está bem? o que houve?", "speed": 60 }            
+            ]]
+        },
+        "escolhas": {
+          "escolha1": {
+            "texto": [
+              { "string": "É pegadinha!!!! kkkkkk caiu igual um patinho!!!" }
+            ],
+            "trust": "0",
+            "paraCena": "1a13"
+          },
+          "escolha2": {
+            "texto": [
+              { "string": "Continuar atuando" }
+            ],
+            "trust": "0",
+            "paraCena": "1b13"
+          },
+          "escolha3": {
+               "texto": [
+              { "string": "-" }
+            ],
+            "trust": "0",
+            "paraCena": "-"
+          },
+          "escolha4": {
+               "texto": [
+              { "string": "-" }
+            ],
+            "trust": "0",
+            "paraCena": "-"
+          }
+        }
+      }
+}

@@ -1,0 +1,49 @@
+{
+    "cena": {
+      "id": 1,
+      "background":"deserto",
+      "dialogos": {
+        "numeroBaloes":3,
+        "numeroEscolhas":2,
+        "personagem": "Katarina",
+        "texto": [[
+          { "string": "Vocês dirigem até uma estrada deserta, não há nada além de um posto de gasolina abandonado e uma grande torre de telefone nas redondezas", "speed": 60, "classes": ["Narrador"] }
+        ],[
+          { "string": " ", "speed": 60, "classes": ["irritada"] },
+          { "string": "Que calor da porra, ainda bem que eu vim preparada", "speed": 60 }
+        ],[
+          { "string": "*Ela tira uma garrafa de vodka da mochila*", "speed": 60, "classes": ["Narrador"] }
+        ]]
+      },
+      "escolhas": {
+        "escolha1": {
+          "texto": [
+            { "string": "Você não deveria fazer isso em uma missão" }
+          ],
+          "trust": "0",
+          "paraCena": "1a3"
+        },
+        "escolha2": {
+          "texto": [
+            { "string": "Me dá um pouco?" }
+          ],
+          "trust": "0",
+          "paraCena": "1b3"
+        },
+        "escolha3": {
+             "texto": [
+            { "string": "Q?" }
+          ],
+          "trust": "-1",
+          "paraCena": "-"
+        },
+        "escolha4": {
+             "texto": [
+            { "string": "..." }
+          ],
+          "trust": "-1",
+          "paraCena": "-"
+        }
+      }
+    }
+  }

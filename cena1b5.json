@@ -1,0 +1,47 @@
+{
+    "cena": {
+        "id": 1,
+        "background":"deserto",
+        "dialogos": {
+          "numeroBaloes":2,
+          "numeroEscolhas":2,
+          "personagem": "Katarina",
+          "texto": [[
+            { "string": " ", "speed": 60, "classes": ["surpresa"] },
+            { "string": "SÉRIO? RÁPIDO, abre o segundo bolso da minha mochila, você vai entender o que fazer", "speed": 60 }
+          ],[
+            { "string": "*Você abre o segundo bolso, tem um pote de vidro, um desodorante aerosol e um isqueiro*", "speed": 60, "classes": ["Narrador"] }
+          ]]
+        },
+        "escolhas": {
+          "escolha1": {
+            "texto": [
+              { "string": "Tacar fogo na aranha" }
+            ],
+            "trust": "0",
+            "paraCena": "1a6"
+          },
+          "escolha2": {
+            "texto": [
+              { "string": "Colocar ela no pote" }
+            ],
+            "trust": "0",
+            "paraCena": "1b6"
+          },
+          "escolha3": {
+               "texto": [
+              { "string": "-" }
+            ],
+            "trust": "0",
+            "paraCena": "-"
+          },
+          "escolha4": {
+               "texto": [
+              { "string": "-" }
+            ],
+            "trust": "0",
+            "paraCena": "-"
+          }
+        }
+      }
+    }

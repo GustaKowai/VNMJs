@@ -1,0 +1,54 @@
+{
+  "cena": {
+    "id": 0,
+    "background":"quartel",
+    "dialogos": {
+      "numeroBaloes":1,
+      "numeroEscolhas":2,
+      "personagem": "Gatovaldo",
+      "texto": [[
+        { "string": " ", "speed": 80, "classes": ["default"] },
+        { "string": "Vocês ainda vão se surpreender ainda mais com a minha grandeza,", "speed": 80 },
+        { "string": " ", "speed": 80, "classes": ["happy"] },
+        { "string": "meus planos nunca deram errado,", "speed": 80},
+        { "string": " ", "speed": 80, "classes": ["default"] },
+        { "string": "eu normalmente desisto deles antes que isso aconteça,", "speed": 20,"classes": ["pequeno"] },
+        { "string": " ", "speed": 80, "classes": ["happy"] },
+        { "string": "mas não dessa vez!", "speed": 80}
+      ],[
+        { "string": " ", "speed": 80, "classes": ["humor"] },
+        { "string": "-", "speed": 80 }
+      ]]
+    },
+    "escolhas": {
+      "escolha1": {
+        "texto": [
+          { "string": "hum.... ok?" }
+        ],
+        "trust": "0",
+        "paraCena": "0a3"
+      },
+      "escolha2": {
+        "texto": [
+          { "string": "SIM CAPITÃO!" }
+        ],
+        "trust": "0",
+        "paraCena": "0b3"
+      },
+      "escolha3": {
+           "texto": [
+          { "string": "=" }
+        ],
+        "trust": "-1",
+        "paraCena": "-"
+      },
+      "escolha4": {
+           "texto": [
+          { "string": "-" }
+        ],
+        "trust": "-1",
+        "paraCena": "-"
+      }
+    }
+  }
+}

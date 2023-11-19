@@ -1,0 +1,50 @@
+{
+    "cena": {
+        "id": 1,
+        "background":"deserto",
+        "dialogos": {
+          "numeroBaloes":3,
+          "numeroEscolhas":3,
+          "personagem": "Katarina",
+          "texto": [[
+            { "string": " ", "speed": 60, "classes": ["irritada"] },
+            { "string": "Não quero falar sobre isso no momento, acho que já ta na hora da gente se preparar", "speed": 60 }
+          ],[
+            { "string": "*Vocês vão até a torre e começam a subir nela, ela parece instável, mas a confiança e animação de katarina te passa uma segurança inexplicávelapós chegarem a uma certa altura, vocês se sentam na beirada, e percebem que definitivamente não há mais nada por perto além dessa torre e daquele posto de gasolina*", "speed": 60, "classes": ["Narrador"] }
+          ],[
+            { "string": " ", "speed": 60, "classes": ["default"] },
+            { "string": "é... parece que a gente ta bem isolado aqui mesmo, mas vai ser bom para ver quando o caminhão estiver chegando, bora fazer alguma coisa enquanto isso, abre o terceiro bolso da minha mochila ai e pega alguma coisa", "speed": 60 }
+            ]]
+        },
+        "escolhas": {
+          "escolha1": {
+            "texto": [
+              { "string": "Pegar tabuleiro de xadrez " }
+            ],
+            "trust": "0",
+            "paraCena": "1a9"
+          },
+          "escolha2": {
+            "texto": [
+              { "string": "Pegar garrafa de vodka" }
+            ],
+            "trust": "0",
+            "paraCena": "1b9"
+          },
+          "escolha3": {
+               "texto": [
+              { "string": "Pegar rifle de precisão" }
+            ],
+            "trust": "0",
+            "paraCena": "1c9"
+          },
+          "escolha4": {
+               "texto": [
+              { "string": "-" }
+            ],
+            "trust": "0",
+            "paraCena": "-"
+          }
+        }
+      }
+    }

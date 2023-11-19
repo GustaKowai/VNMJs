@@ -1,0 +1,58 @@
+{
+    "cena": {
+        "id": 1,
+        "background":"deserto",
+        "dialogos": {
+          "numeroBaloes":7,
+          "numeroEscolhas":2,
+          "personagem": "Katarina",
+          "texto": [[
+            { "string": " ", "speed": 60, "classes": ["feliz"] },
+            { "string": "Nunca se sabe quando você irá precisar de uma arma improvisada, e além disso, você já quebrou uma garrafa para uma briga de bar? é super divertido", "speed": 60 }
+          ],[
+            { "string": "Bem, acho que a gente ainda tem um tempo, bora naquele posto de gasolina abandonado e depois a gente sobe naquela torre telefonica pra ter uma visão melhor dos arredores e começar a se preparar", "speed": 60 }
+          ],[
+            { "string": "*Vocês andam até o posto de gasolina abandonado...*", "speed": 60, "classes": ["Narrador"] }
+          ],[
+            { "string": "*É definitivamente um posto de gasolina...*", "speed": 60 }
+          ],[
+            { "string": "*Está definitivamente abandonado...*", "speed": 60 }
+          ],[
+            { "string": " ", "speed": 60, "classes": ["surpresa"] },
+            { "string": "Que maneiro, parece que algumas coisas das prateleiras ainda estão aqui, bora dar uma olhada", "speed": 60 }
+          ],[
+            { "string": "*Katarina vira de costas para você, tem uma tarântula enorme lá*", "speed": 60, "classes": ["Narrador"] }           
+          ]]
+        },
+        "escolhas": {
+          "escolha1": {
+            "texto": [
+              { "string": "AHHH (matar a aranha)" }
+            ],
+            "trust": "0",
+            "paraCena": "1a5"
+          },
+          "escolha2": {
+            "texto": [
+              { "string": "er... tem uma tarântula enorme nas suas costas" }
+            ],
+            "trust": "0",
+            "paraCena": "1b5"
+          },
+          "escolha3": {
+               "texto": [
+              { "string": "Q?" }
+            ],
+            "trust": "-1",
+            "paraCena": "-"
+          },
+          "escolha4": {
+               "texto": [
+              { "string": "..." }
+            ],
+            "trust": "-1",
+            "paraCena": "-"
+          }
+        }
+      }
+    }

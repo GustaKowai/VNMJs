@@ -1,0 +1,48 @@
+{
+    "cena": {
+      "id": 1,
+      "background":"recepcao",
+      "dialogos": {
+        "numeroBaloes":2,
+        "numeroEscolhas":1,
+        "personagem": "Katarina",
+        "texto": [[
+          { "string": " ", "speed": 60, "classes": ["feliz"] },
+          { "string": "ah! a brunilde e a marlene, são para a proteção do escritório, uma é pra mim, e a outra para a cláudia, as duas ficam lá por que eu acharia muito estiloso se ocoresse uma invasão e no momento que eu saisse do escritório ela jogasse a minha arma para mim e eu a pegasse no ar com uma mão só enquanto preparo uma granada com a outra ", "speed": 60 }
+        ],[
+          { "string": " ", "speed": 60, "classes": ["default"] },
+          { "string": "Acho, que já podemos ir, eu vou dirigindo!", "speed": 60 }
+        ]]
+      },
+      "escolhas": {
+        "escolha1": {
+          "texto": [
+            { "string": "Ir para a missão" }
+          ],
+          "trust": "0",
+          "paraCena": "1m1"
+        },
+        "escolha2": {
+          "texto": [
+            { "string": "-" }
+          ],
+          "trust": "0",
+          "paraCena": "-"
+        },
+        "escolha3": {
+             "texto": [
+            { "string": "Q?" }
+          ],
+          "trust": "-1",
+          "paraCena": "-"
+        },
+        "escolha4": {
+             "texto": [
+            { "string": "..." }
+          ],
+          "trust": "-1",
+          "paraCena": "-"
+        }
+      }
+    }
+  }

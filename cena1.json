@@ -1,55 +1,49 @@
 {
-  "cena": {
-    "id": 1,
-    "background":"bg1",
-    "dialogos": {
-      "numeroEscolhas":2,
-      "personagem": "Katarina",
-      "texto":[
-        { "string": " ", "speed": 80, "classes": ["normal"] },
-        { "string": "Olá?", "speed": 80 },
-        { "string": " ", "speed": 80, "classes": ["happy"] },
-        { "string": "Tudo bom?", "speed": 80, "classes": ["green"] },
-        { "string": "O que você faz aqui?", "speed": 40 },
-        { "string": " ", "speed": 80, "classes": ["mad"] },
-        { "string": "Não lembro de ter te chamado.", "speed": 120, "classes": ["red"] }
-      ]
-    },
-    "escolhas": {
-      "escolha1": {
-        "texto": [
-          { "string": "Olá.", "speed": 200 },
-          { "string": "Tudo bom?", "speed": 200, "classes": ["green"] },
-          { "string": "O que você faz aqui?", "speed": 160 },
-          { "string": "Não lembro de ter te chamado.", "speed": 280, "classes": ["red"] }
-        ],
-        "trust": "-1",
-        "paraCena": "3"
+    "cena": {
+      "id": 1,
+      "background":"recepcao",
+      "dialogos": {
+        "numeroBaloes":2,
+        "numeroEscolhas":2,
+        "personagem": "Katarina",
+        "texto": [[
+          { "string": "*Você entra em uma sala de recepção com uma decoração atípica*", "speed": 60, "classe": ["Narrador"] },
+          { "string": "*Há uma parede cheia de cabeças de animais empalhados, com os olhos trocados por pedras preciosas*", "speed": 60, "classe": ["Narrador"] },
+          { "string": "*Em um balcão extravagante, próximo a duas espingardas rosas cruzadas entre o símbolo da marca de rações de katarina, uma simpática recepcionista te atende*", "speed": 60, "classe": ["Narrador"] }
+        ],[
+          { "string": " ", "speed": 60, "classes": ["Recepcionista"] },
+          { "string": "Boa tarde! como posso te ajudar?", "speed": 60 }
+        ]]
       },
-      "escolha2": {
-        "texto": [
-          { "string": "Olá.", "speed": "speeds.normal" },
-          { "string": "Tudo bom?", "speed": "speeds.normal", "classes": ["green"] },
-          { "string": "O que você faz aqui?", "speed": "speeds.fast" },
-          { "string": "Não lembro de ter te chamado.", "speed": "speeds.slow", "classes": ["red"] }
-        ],
-        "trust": "-1",
-        "paraCena": "3"
-      },
-      "escolha3": {
-           "texto": [
-          { "string": "Q?" }
-        ],
-        "trust": "-1",
-        "paraCena": "-"
-      },
-      "escolha4": {
-           "texto": [
-          { "string": "..." }
-        ],
-        "trust": "-1",
-        "paraCena": "-"
+      "escolhas": {
+        "escolha1": {
+          "texto": [
+            { "string": "Katarina." }
+          ],
+          "trust": "0",
+          "paraCena": "1a1"
+        },
+        "escolha2": {
+          "texto": [
+            { "string": "Boa tarde, a senhorita Katarina encontra-se no recinto?" }
+          ],
+          "trust": "0",
+          "paraCena": "1b1"
+        },
+        "escolha3": {
+             "texto": [
+            { "string": "Q?" }
+          ],
+          "trust": "-1",
+          "paraCena": "-"
+        },
+        "escolha4": {
+             "texto": [
+            { "string": "..." }
+          ],
+          "trust": "-1",
+          "paraCena": "-"
+        }
       }
     }
   }
-}

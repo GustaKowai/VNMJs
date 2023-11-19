@@ -83,6 +83,12 @@ body{
   color: red;
   font-style: bold;
 }
+.text span.pequeno{
+  font-size: smaller;
+}
+.text span.maior{
+  font-size:x-large;
+}
 #nextText{
   position: absolute;
   top: 39vw;

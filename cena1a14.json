@@ -1,0 +1,52 @@
+{
+    "cena": {
+        "id": 1,
+        "background":"deserto",
+        "dialogos": {
+          "numeroBaloes":4,
+          "numeroEscolhas":1,
+          "personagem": "Katarina",
+          "texto": [[
+            { "string": " ", "speed": 60, "classes": ["smirk"] },
+            { "string": "Ah, eu sei né! falei poxa, confia em mim!", "speed": 60 }
+          ],[
+            { "string": "*Vocês voltam até o carro, o picolé já está quase derretido, o calor está insuportável*", "speed": 60 , "classes": ["Narrador"]}
+          ],[
+            { "string": " ", "speed": 60, "classes": ["feliz"] },
+            { "string": "Hey, acho que a gente precisa se conhecer mais, você deve ter percebido que isso é importante para mim, tenho um problema em conviver com estranhos, quem sabe eu não te conto mais sobre o meu pai,eu sei que está curioso", "speed": 60 }           
+          ],[
+            { "string": "*Você tenta dar uma resposta, mas ela imediatamente liga o som do carro em um volume estrondoso, e começa a acelerar o carro, vocês partem*", "speed": 60, "classes": ["Narrador"] }            
+            ]]
+        },
+        "escolhas": {
+          "escolha1": {
+            "texto": [
+              { "string": "Continuar para a próxima missão" }
+            ],
+            "trust": "0",
+            "paraCena": "2"
+          },
+          "escolha2": {
+            "texto": [
+              { "string": "-" }
+            ],
+            "trust": "0",
+            "paraCena": "-"
+          },
+          "escolha3": {
+               "texto": [
+              { "string": "-" }
+            ],
+            "trust": "0",
+            "paraCena": "-"
+          },
+          "escolha4": {
+               "texto": [
+              { "string": "-" }
+            ],
+            "trust": "0",
+            "paraCena": "-"
+          }
+        }
+      }
+}

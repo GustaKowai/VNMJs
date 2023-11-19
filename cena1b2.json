@@ -1,0 +1,57 @@
+{
+    "cena": {
+      "id": 1,
+      "background":"recepcao",
+      "dialogos": {
+        "numeroBaloes":4,
+        "numeroEscolhas":1,
+        "personagem": "Katarina",
+        "texto": [[
+          { "string": " ", "speed": 60, "classes": ["feliz"] },
+          { "string": "Não se preocupe, elas são falsas, menos a do jacaré, a do leão, a do urso...", "speed": 60 }
+        ],[
+            
+
+          { "string": "*Ela diz mais alguns nomes*", "speed": 60, "classes": ["Narrador"] },
+          { "string": "*Aparentemente no máximo umas 3 delas são falsas*", "speed": 60, "classes": ["Narrador"] }
+        ],[
+          { "string": " ", "speed": 60, "classes": ["triste"] },
+          { "string": "Eram do meu pai, eu as herdei quando ele morreu, assim como as joias, apenas uni as duas coisas...", "speed": 60 }
+        ],[
+          { "string": " ", "speed": 60, "classes": ["feliz"] },
+          { "string": "Acho, que já podemos ir, eu vou dirigindo!", "speed": 60}
+       
+        ]]
+      },
+      "escolhas": {
+        "escolha1": {
+          "texto": [
+            { "string": "Ir para a missão" }
+          ],
+          "trust": "0",
+          "paraCena": "1m1"
+        },
+        "escolha2": {
+          "texto": [
+            { "string": "-" }
+          ],
+          "trust": "0",
+          "paraCena": "-"
+        },
+        "escolha3": {
+             "texto": [
+            { "string": "Q?" }
+          ],
+          "trust": "-1",
+          "paraCena": "-"
+        },
+        "escolha4": {
+             "texto": [
+            { "string": "..." }
+          ],
+          "trust": "-1",
+          "paraCena": "-"
+        }
+      }
+    }
+  }

@@ -1,0 +1,50 @@
+{
+  "cena": {
+    "id": 0,
+    "background":"quartel",
+    "dialogos": {
+      "numeroBaloes":1,
+      "numeroEscolhas":2,
+      "personagem": "Gatovaldo",
+      "texto": [[
+        { "string": " ", "speed": 80, "classes": ["normal"] },
+        { "string": "é algo que vai além da compreensão da pequena mente humana de vocês...", "speed": 80 },
+        { "string": "mas, basicamente,", "speed": 80},
+        { "string": "essa porcentagem representa  a quantidade de ovelhas que eu conto antes de dormir enquanto penso no assunto. ", "speed": 80}
+      ],[
+        { "string": " ", "speed": 80, "classes": ["humor"] },
+        { "string": "-", "speed": 80 }
+      ]]
+    },
+    "escolhas": {
+      "escolha1": {
+        "texto": [
+          { "string": "caramba, você conta ovelhinhas e pensa sobre a revolução ao mesmo tempo?" }
+        ],
+        "trust": "0",
+        "paraCena": "0a2"
+      },
+      "escolha2": {
+        "texto": [
+          { "string": "86,4 ovelhas? o que seria essa \"0,4 ovelha\"?" }
+        ],
+        "trust": "0",
+        "paraCena": "0b2"
+      },
+      "escolha3": {
+           "texto": [
+          { "string": "=" }
+        ],
+        "trust": "-1",
+        "paraCena": "-"
+      },
+      "escolha4": {
+           "texto": [
+          { "string": "-" }
+        ],
+        "trust": "-1",
+        "paraCena": "-"
+      }
+    }
+  }
+}

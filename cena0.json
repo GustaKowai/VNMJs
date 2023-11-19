@@ -3,30 +3,34 @@
     "id": 1,
     "background":"quartel",
     "dialogos": {
-      "numeroEscolhas":"4",
+      "numeroBaloes":1,
+      "numeroEscolhas":2,
       "personagem": "Gatovaldo",
-      "texto": [
+      "texto": [[
         { "string": " ", "speed": 80, "classes": ["normal"] },
         { "string": "Saudações, (nome 1) e (nome2),  espero poder contar com vocês nessa...", "speed": 80 },
         { "string": "como já sabem, em breve todos nós teremos grandes missões a serem cumpridas.", "speed": 80},
         { "string": " ", "speed": 80, "classes": ["happy"] },
         { "string": "será um grande evento, e de acordo com as minhas contas nossa chance de sucesso é de 86,4%!", "speed": 80,"classes": ["green"] }
-      ]
+      ],[
+        { "string": " ", "speed": 80, "classes": ["normal"] },
+        { "string": "Boa sorte", "speed": 80 }
+      ]]
     },
     "escolhas": {
       "escolha1": {
         "texto": [
-          { "string": "Isso não parece uma boa ideia" }
+          { "string": "como isso sequer pode ser calculado?" }
         ],
-        "trust": "-1",
-        "paraCena": "2"
+        "trust": "0",
+        "paraCena": "0a1"
       },
       "escolha2": {
         "texto": [
-          { "string": "Concordo","classes": ["green"] }
+          { "string": "uau!","classes": ["green"] }
         ],
-        "trust": "-1",
-        "paraCena": "1"
+        "trust": "0",
+        "paraCena": "0b1"
       },
       "escolha3": {
            "texto": [

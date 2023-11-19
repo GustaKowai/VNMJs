@@ -101,12 +101,13 @@ function textToBox(cena) {
   var backgroundImg = cena.background;
   var nEscolhas = cena.dialogos.numeroEscolhas
   var numeroEscolhas = parseInt(nEscolhas, 10);
+  var balao = 0;
   //Muda o cenário
   var backgroundUrl = "url('img/background/" + backgroundImg + ".jpg')"
   document.body.style.backgroundImage = backgroundUrl;
   //Passa o texto para a caixa de texto, separando as letras
-  textLines.forEach((line, index) => {
-    if (index < textLines.length - 1) {
+  textLines[balao].forEach((line, index) => {
+    if (index < textLines[balao].length - 1) {
       line.string += "  ";
     }
     line.string.split("").forEach(letra => {

@@ -1,0 +1,91 @@
+{
+    "cena": {
+        "id": 1,
+        "background":"deserto",
+        "dialogos": {
+          "numeroBaloes":17,
+          "numeroEscolhas":2,
+          "personagem": "Katarina",
+          "texto": [[
+            { "string": " ", "speed": 60, "classes": ["Vovo"] },
+            { "string": "Minha nossa! esse machucado parece estar feio!", "speed": 60 }
+          ],[
+            { "string": "*Você percebe que ele genuinamente acredita em ti e está evitando olhar para a sua perna*", "speed": 60 , "classes": ["Narrador"]}
+          ],[
+            { "string": "*Você vê katarina chegando de mansinho com um rifle e usando uma bandana na cara*", "speed": 60 , "classes": ["Narrador"]}
+          ],[
+            { "string": " ", "speed": 60, "classes": ["brava"] },
+            { "string": "Mãos ao alto velhote!", "speed": 60 }           
+          ],[
+            { "string": " ", "speed": 60, "classes": ["Vovo"] },
+            { "string": "Mas o que", "speed": 60 }            
+          ],[
+            { "string": " ", "speed": 60, "classes": ["brava"] },
+            { "string": "Isso mesmo! mãos ao alto! isso é um assalto!", "speed": 60 }            
+          ],[
+            { "string": "*Ele paralisa, parece estar muito assustado*", "speed": 60 , "classes": ["Narrador"] }          
+          ],[
+            { "string": " ", "speed": 60, "classes": ["feliz"] },
+            { "string": "To te zoando!", "speed": 60 },     
+            { "string": "*Ela abaixa a arma*", "speed": 60 , "classes": ["Narrador"] },
+            { "string": "É só uma pegadinha para o meu canal do youtube!", "speed": 60 }   
+          ],[  
+            { "string": " ", "speed": 60, "classes": ["Vovo"] },
+            { "string": "Ah.. haha.. entendi... por favor me deixem ir eu tenho familia", "speed": 60 }
+          ],[
+            { "string": "*Ele ainda está bem assustado*", "speed": 60 , "classes": ["Narrador"] }
+          ],[ 
+            { "string": " ", "speed": 60, "classes": ["feliz"] },
+            { "string": "Calma! toma aqui", "speed": 60 }   ,  
+            { "string": "*Ela tira um maço de dinheiro da mochila*", "speed": 60 , "classes": ["Narrador"] },
+            { "string": "Me vê dois picolés!", "speed": 60 }
+          ],[ 
+            { "string": " ", "speed": 60, "classes": ["Vovo"] },
+            { "string": "C-claro, s-s-só preciso pegar eles ali na p-parte de trás", "speed": 60 }
+          ],[ 
+            { "string": "*Vocês vão até a parte de trás do caminhão, ele entra, e sai com dois picolés de baunilha*", "speed": 60 , "classes": ["Narrador"] }
+          ],[ 
+            { "string": " ", "speed": 60, "classes": ["Vovo"] },
+            { "string": "A-aqui o troco", "speed": 60 }
+          ],[ 
+            { "string": " ", "speed": 60, "classes": ["confusa"] },
+            { "string": "Troco? desde quando picolés são tão baratos assim? ah quer saber, pode ficar, pelo susto, vai", "speed": 60 }
+          ],[  
+            { "string": "*O senhor entra de volta no caminhão, e sai acelerado*", "speed": 60 , "classes": ["Narrador"] }
+          ],[ 
+            { "string": " ", "speed": 60, "classes": ["brava"] },
+            { "string": "Logo o de baunilha... que sabor mais sem graça... é, bem, ele está limpo, precisamos analisar a nossa próxima hipótese", "speed": 60 }
+            ]]
+        },
+        "escolhas": {
+          "escolha1": {
+            "texto": [
+              { "string": "Você mandou bem!" }
+            ],
+            "trust": "0",
+            "paraCena": "1a14"
+          },
+          "escolha2": {
+            "texto": [
+              { "string": "É... acho que você precisa tomar um pouco mais de cuidado ao lidar com civis..." }
+            ],
+            "trust": "0",
+            "paraCena": "1b14"
+          },
+          "escolha3": {
+               "texto": [
+              { "string": "-" }
+            ],
+            "trust": "0",
+            "paraCena": "-"
+          },
+          "escolha4": {
+               "texto": [
+              { "string": "-" }
+            ],
+            "trust": "0",
+            "paraCena": "-"
+          }
+        }
+      }
+}

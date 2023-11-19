@@ -1,0 +1,47 @@
+{
+    "cena": {
+      "id": 1,
+      "background":"recepcao",
+      "dialogos": {
+        "numeroBaloes":2,
+        "numeroEscolhas":1,
+        "personagem": "Katarina",
+        "texto": [[
+          { "string": " ", "speed": 60, "classes": ["default"] },
+          { "string": "Na realidade não, só pesquisei o significado do seu nome, isso já basta pra mim.", "speed": 60 }
+        ],[
+          { "string": "Acho, que já podemos ir, eu vou dirigindo!", "speed": 60 }
+        ]]
+      },
+      "escolhas": {
+        "escolha1": {
+          "texto": [
+            { "string": "Ir para a missão" }
+          ],
+          "trust": "0",
+          "paraCena": "1m1"
+        },
+        "escolha2": {
+          "texto": [
+            { "string": "-" }
+          ],
+          "trust": "0",
+          "paraCena": "-"
+        },
+        "escolha3": {
+             "texto": [
+            { "string": "Q?" }
+          ],
+          "trust": "-1",
+          "paraCena": "-"
+        },
+        "escolha4": {
+             "texto": [
+            { "string": "..." }
+          ],
+          "trust": "-1",
+          "paraCena": "-"
+        }
+      }
+    }
+  }

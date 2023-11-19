@@ -1,0 +1,60 @@
+{
+    "cena": {
+        "id": 1,
+        "background":"deserto",
+        "dialogos": {
+          "numeroBaloes":6,
+          "numeroEscolhas":2,
+          "personagem": "Katarina",
+          "texto": [[
+            { "string": " ", "speed": 60, "classes": ["default"] },
+            { "string": "*Você procura por coisas nas prateleiras, e acha um salgadinho super ardido, ele venceu há 2 anos*", "speed": 60, "classes": ["Narrador"] }
+          ],[
+            { "string": " ", "speed": 60, "classes": ["default"] },
+            { "string": "Eai, algo que preste?", "speed": 60 }
+          ],[
+            { "string": " ", "speed": 60, "classes": ["muitofeliz"] },
+            { "string": "Caralho! esse era edição limitada, valeu!", "speed": 60 }
+          ],[
+            { "string": " ", "speed": 60, "classes": ["triste"] },
+            { "string": "Bom, eu achei isso aqui", "speed": 60 }
+          ],[
+            { "string": "*Ela te mostra uma revista, na capa, você vê uma garota usando rosa com o seu pai, o título é: sucesso entre os felinos! pai e filha revelam alguns dos segredos  dos petiscos mais cobiçados pelos gatunos*", "speed": 60, "classes": ["Narrador"] }
+          ],[
+            { "string": "Eu até que gostava dele ", "speed": 60},
+            { "string": "Na realidade, eu gostava dele, mas era jovem demais para entender isso", "speed": 60 },
+            { "string": "Eu perdi mais do que um braço naquele atentado", "speed": 60 }
+            ]]
+        },
+        "escolhas": {
+          "escolha1": {
+            "texto": [
+              { "string": "Atentado?" }
+            ],
+            "trust": "0",
+            "paraCena": "1a8"
+          },
+          "escolha2": {
+            "texto": [
+              { "string": "Meus sentimentos..." }
+            ],
+            "trust": "0",
+            "paraCena": "1b8"
+          },
+          "escolha3": {
+               "texto": [
+              { "string": "-" }
+            ],
+            "trust": "0",
+            "paraCena": "-"
+          },
+          "escolha4": {
+               "texto": [
+              { "string": "-" }
+            ],
+            "trust": "0",
+            "paraCena": "-"
+          }
+        }
+      }
+    }

@@ -1,0 +1,51 @@
+{
+  "cena": {
+    "id": 0,
+    "background":"quartel",
+    "dialogos": {
+      "numeroBaloes":1,
+      "numeroEscolhas":2,
+      "personagem": "Gatovaldo",
+      "texto": [[
+        { "string": " ", "speed": 80, "classes": ["humor"] },
+        { "string": "-", "speed": 80 },
+        { "string": "-", "speed": 80},
+        { "string": " ", "speed": 80, "classes": ["humor"] },
+        { "string": "-", "speed": 80,"classes": ["-"] }
+      ],[
+        { "string": " ", "speed": 80, "classes": ["humor"] },
+        { "string": "-", "speed": 80 }
+      ]]
+    },
+    "escolhas": {
+      "escolha1": {
+        "texto": [
+          { "string": "-" }
+        ],
+        "trust": "0",
+        "paraCena": "-"
+      },
+      "escolha2": {
+        "texto": [
+          { "string": "-!","classes": ["-"] }
+        ],
+        "trust": "0",
+        "paraCena": "="
+      },
+      "escolha3": {
+           "texto": [
+          { "string": "=" }
+        ],
+        "trust": "-1",
+        "paraCena": "-"
+      },
+      "escolha4": {
+           "texto": [
+          { "string": "-" }
+        ],
+        "trust": "-1",
+        "paraCena": "-"
+      }
+    }
+  }
+}
