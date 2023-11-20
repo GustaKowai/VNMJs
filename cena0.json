@@ -7,27 +7,31 @@
       "numeroEscolhas":2,
       "personagem": "Gatovaldo",
       "texto": [[
-        { "string": " ", "speed": 80, "classes": ["normal"] },
-        { "string": "Saudações, (nome 1) e (nome2),  espero poder contar com vocês nessa...", "speed": 80 },
-        { "string": "como já sabem, em breve todos nós teremos grandes missões a serem cumpridas.", "speed": 80},
-        { "string": " ", "speed": 80, "classes": ["happy"] },
-        { "string": "será um grande evento, e de acordo com as minhas contas nossa chance de sucesso é de 86,4%!", "speed": 80,"classes": ["green"] }
+        { "string": " ", "speed": 80, "classes": ["default","isOrange"] },
+        { "string": "Saudações", "speed": 80 },
+        { "string": "Orange", "speed": 80,"classes": ["orange"] },
+        { "string": "e", "speed": 80 },
+        { "string": "Blue,", "speed": 80,"classes": ["blue","isBlue"] },
+        { "string": "espero poder contar com vocês nessa...", "speed": 80 },
+        { "string": "Como já sabem, em breve todos nós teremos grandes missões a serem cumpridas.", "speed": 80},
+        { "string": " ", "speed": 80, "classes": ["feliz","isOrange"] },
+        { "string": "Será um grande evento, e de acordo com as minhas contas nossa chance de sucesso é de 86,4%!", "speed": 80,"classes": ["green"] }
       ],[
-        { "string": " ", "speed": 80, "classes": ["normal"] },
+        { "string": " ", "speed": 80, "classes": ["default"] },
         { "string": "Boa sorte", "speed": 80 }
       ]]
     },
     "escolhas": {
       "escolha1": {
         "texto": [
-          { "string": "como isso sequer pode ser calculado?" }
+          { "string": "Como isso sequer pode ser calculado?!" }
         ],
         "trust": "0",
         "paraCena": "0a1"
       },
       "escolha2": {
         "texto": [
-          { "string": "uau!","classes": ["green"] }
+          { "string": "Uau!","classes": ["green"] }
         ],
         "trust": "0",
         "paraCena": "0b1"

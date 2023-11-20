@@ -7,14 +7,14 @@
       "numeroEscolhas":1,
       "personagem": "Gatovaldo",
       "texto": [[
-        { "string": " ", "speed": 80, "classes": ["serio"] },
-        { "string": "Vocês não acreditam no meu potencial, né ?", "speed": 40, "classes":["red","maior"] },
+        { "string": " ", "speed": 80, "classes": ["serio","trocaPlayer"] },
+        { "string": "Vocês não acreditam no meu potencial, né ?", "speed": 40, "classes":["maior","red"] },
         { "string": "Só porque eu sou um gatinho fofinho?", "speed": 80},
         { "string": " ", "speed": 80, "classes": ["feliz"] },
         { "string": "meu qi é maior do que o de todas as gerações de vocês dois juntas!", "speed": 80,"classes": ["red"] }
       ],[
         { "string": " ", "speed": 80, "classes": ["serio"] },
-        { "string": "vou provar que estão errados.", "speed": 80 }
+        { "string": "Vou provar que estão errados.", "speed": 80 }
       ]]
     },
     "escolhas": {

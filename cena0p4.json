@@ -1,0 +1,56 @@
+{
+  "cena": {
+    "id": 0,
+    "background":"quartel",
+    "dialogos": {
+      "numeroBaloes":3,
+      "numeroEscolhas":2,
+      "personagem": "Gatovaldo",
+      "texto": [[
+        { "string": " ", "speed": 80, "classes": ["default","trocaPlayer"] },
+        { "string": "Bem, dito isso, conheçam tambem", "speed": 80 },
+        { "string": " ", "speed": 80, "classes": ["alessandra"] },
+        { "string": "Alessandra Mallet,", "speed": 80, "classes":["red"]},
+        { "string": "talvez já tenham ouvido esse nome. Uma grande estilista que entrou nas sombras um tempo atrás.", "speed": 80},
+        { "string": "Presumiram que ela tivesse morrido, mas aparentemente esqueceram de procurá-la no seu ateliê!", "speed": 80}
+      ],[
+        { "string": " ", "speed": 80, "classes": ["default"] },
+        { "string": "Acontece que minha tia-avó já fez morada no forro de lá. Hoje ela está em um lugar melhor...", "speed": 80 },
+        { "string": "Em uma noite chuvosa e melancólica a nostalgia acabou me levando ao seu covil", "speed": 80 },
+        { "string": "e lá estava ela, desenhando uma roupa super estilosa como se nada tivesse acontecido!", "speed": 80 }
+      ],[
+        { "string": "Falei com ela sobre o nosso movimento e ela aceitou participar. Engraçado que não tenha questionado um gato falante e aceitado tudo numa boa, mas tudo bem!", "speed": 80 }
+      ]]
+    },
+    "escolhas": {
+      "escolha1": {
+        "texto": [
+          { "string": "Meus pesames pela sua tia-avó" }
+        ],
+        "trust": "0",
+        "paraCena": "0a5"
+      },
+      "escolha2": {
+        "texto": [
+          { "string": "Animais falantes não são normais hoje em dia?"}
+        ],
+        "trust": "0",
+        "paraCena": "0b5"
+      },
+      "escolha3": {
+           "texto": [
+          { "string": "=" }
+        ],
+        "trust": "-1",
+        "paraCena": "-"
+      },
+      "escolha4": {
+           "texto": [
+          { "string": "-" }
+        ],
+        "trust": "-1",
+        "paraCena": "-"
+      }
+    }
+  }
+}

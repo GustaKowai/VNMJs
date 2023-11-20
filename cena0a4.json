@@ -7,20 +7,20 @@
       "numeroEscolhas":1,
       "personagem": "Gatovaldo",
       "texto": [[
-        { "string": " ", "speed": 80, "classes": ["feliz","trocaPlayer"] },
-        { "string": "É disso que eu estou falando.", "speed": 80 }
-      ],[
-        { "string": " ", "speed": 80, "classes": ["humor"] },
-        { "string": "-", "speed": 80 }
+        { "string": " ", "speed": 60, "classes": ["humor","trocaPlayer"] },
+        { "string": "Sim! é por isso que estamos aqui, e conto com vocês para tirar aquele bostinha do poder", "speed": 60 }
+        ],[
+        { "string": " ", "speed": 60, "classes": ["humor"] },
+        { "string": "-", "speed": 60 }
       ]]
     },
     "escolhas": {
       "escolha1": {
         "texto": [
-          { "string": "*sorri*" }
+          { "string": "Deixa com a gente!" }
         ],
         "trust": "0",
-        "paraCena": "0p3"
+        "paraCena": "0p4"
       },
       "escolha2": {
         "texto": [

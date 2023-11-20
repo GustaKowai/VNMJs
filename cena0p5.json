@@ -1,0 +1,71 @@
+{
+  "cena": {
+    "id": 0,
+    "background":"quartel",
+    "dialogos": {
+      "numeroBaloes":7,
+      "numeroEscolhas":2,
+      "personagem": "Gatovaldo",
+      "texto": [[
+        { "string": " ", "speed": 80, "classes": ["default","trocaPlayer"] },
+        { "string": "Enfim, preciso que interajam com elas, pois provavelmente serão suas parceiras de missão, ", "speed": 80 },
+        { "string": "elas de bom grado ofereceram seus locais de trabalho para que possamos usá-los como postos avançados da revolução.", "speed": 80}
+      ],[
+        { "string": "Fiquem a vontade para visitá-las quando quiserem,", "speed": 80},
+        { "string": "vez ou outra também, caso queiram falar comigo, provavelmente estarei ou aqui resolvendo assuntos importantes, ou no cassino do zé me divertindo.", "speed": 80 },
+        { "string": " ", "speed": 80, "classes": ["feliz"] },
+        { "string": "Fiquem a vontade para me procurar. ", "speed": 80 }
+      ],[
+        { "string": "Ah, e só para deixar claro,", "speed": 80},
+        { "string": " ", "speed": 80, "classes": ["serio"] },
+        { "string": "não sei se confio muito nelas", "speed": 80 },
+        { "string": "então deixo na mão de vocês investigar se elas são quem realmente dizem ser.", "speed": 80 }
+      ],[
+        { "string": " ", "speed": 80, "classes": ["default"] },
+        { "string": "Como diz o ditado :", "speed": 80},
+        { "string": " ", "speed": 80, "classes": ["feliz"] },
+        { "string": "\"Deus dá as suas tarefas mais árduas aos seus soldados mais bobinhos\".", "speed": 80,"classes":["red"]},
+        { "string": " ", "speed": 80, "classes": ["default"] },
+        { "string": "Eu, claramente, sou Deus e vocês são os meus soldados mais bobinhos!", "speed": 80 }
+      ],[
+        { "string": " ", "speed": 80, "classes": ["default"] },
+        { "string": "Mas eu gosto de vocês, e confio em vocês.", "speed": 80},
+        { "string": "Agora, se me permitem, preciso me esconder dentro de algum sofá.", "speed": 80}  
+      ],[
+        { "string": "*Ele vira as costas e sai da sala, vocês dois se encaram confusos e se perguntam: \"Que diabos de ditado foi esse?\"*", "speed": 80, "classes":["Narrador"]}
+      ],[
+        { "string": "Jogador, para onde deseja ir agora?", "speed": 80, "classes":["Narrador"]}
+      ]]
+    },
+    "escolhas": {
+      "escolha1": {
+        "texto": [
+          { "string": "Para o escritório da Katarina" }
+        ],
+        "trust": "0",
+        "paraCena": "1"
+      },
+      "escolha2": {
+        "texto": [
+          { "string": "Para o Atelier da Alessandra"}
+        ],
+        "trust": "0",
+        "paraCena": "2"
+      },
+      "escolha3": {
+           "texto": [
+          { "string": "=" }
+        ],
+        "trust": "-1",
+        "paraCena": "-"
+      },
+      "escolha4": {
+           "texto": [
+          { "string": "-" }
+        ],
+        "trust": "-1",
+        "paraCena": "-"
+      }
+    }
+  }
+}

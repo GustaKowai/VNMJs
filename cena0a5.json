@@ -3,24 +3,25 @@
     "id": 0,
     "background":"quartel",
     "dialogos": {
-      "numeroBaloes":1,
+      "numeroBaloes":2,
       "numeroEscolhas":1,
       "personagem": "Gatovaldo",
       "texto": [[
-        { "string": " ", "speed": 80, "classes": ["feliz","trocaPlayer"] },
-        { "string": "É disso que eu estou falando.", "speed": 80 }
+        { "string": " ", "speed": 80, "classes": ["default","trocaPlayer"] },
+        { "string": "Mas ela não está morta! em nenhum momento disse isso,", "speed": 80 },
+        { "string": "aliás, ela foi quem mais cuidou de mim depois daquele fatídico acontecimento que me tornou assim.", "speed": 80}
       ],[
-        { "string": " ", "speed": 80, "classes": ["humor"] },
-        { "string": "-", "speed": 80 }
+        { "string": " ", "speed": 80, "classes": ["feliz"] },
+        { "string": "Eu simplesmente aluguei uma cobertura para ela como agradecimento, é definitivamente um lugar melhor do que aquele forro.", "speed": 80 }
       ]]
     },
     "escolhas": {
       "escolha1": {
         "texto": [
-          { "string": "*sorri*" }
+          { "string": "Fico feliz por ela" }
         ],
         "trust": "0",
-        "paraCena": "0p3"
+        "paraCena": "0p5"
       },
       "escolha2": {
         "texto": [

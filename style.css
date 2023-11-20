@@ -61,6 +61,10 @@ body{
   line-height: 1.2em;
   border-radius: 6px 0% 0% 0%;
 }
+.player-orange{
+  border-bottom: 1vw solid orange;
+  background-color: rgb(233, 189, 148);
+}
 .corner{
   position: absolute;
   width: 5vw;

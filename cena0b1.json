@@ -7,11 +7,9 @@
       "numeroEscolhas":1,
       "personagem": "Gatovaldo",
       "texto": [[
-        { "string": "", "speed": 80, "classes": ["humor"] },
+        { "string": "", "speed": 80, "classes": ["feliz","trocaPlayer"] },
         { "string": "Sim!", "speed": 80 },
-        { "string": "Impressionante como minha posição permite impressionar meus subordinados com números que nem fazem sentido para humanos", "speed": 80},
-        { "string": " ", "speed": 80, "classes": ["humor"] },
-        { "string": "-", "speed": 80,"classes": ["-"] }
+        { "string": "Impressionante como minha posição permite impressionar meus subordinados com números que nem fazem sentido para humanos", "speed": 80}
       ],[
         { "string": " ", "speed": 80, "classes": ["humor"] },
         { "string": "-", "speed": 80 }
@@ -20,7 +18,7 @@
     "escolhas": {
       "escolha1": {
         "texto": [
-          { "string": "..." }
+          { "string": "...         " }
         ],
         "trust": "0",
         "paraCena": "0p2"

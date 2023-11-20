@@ -7,7 +7,7 @@
       "numeroEscolhas":1,
       "personagem": "Gatovaldo",
       "texto": [[
-        { "string": " ", "speed": 80, "classes": ["mad"] },
+        { "string": " ", "speed": 80, "classes": ["serio","trocaPlayer"] },
         { "string": "nao queiram saber.", "speed": 160 }
       ],[
         { "string": " ", "speed": 80, "classes": ["humor"] },
@@ -17,7 +17,7 @@
     "escolhas": {
       "escolha1": {
         "texto": [
-          { "string": "-" }
+          { "string": "*medo*" }
         ],
         "trust": "0",
         "paraCena": "0p2"

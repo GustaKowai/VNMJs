@@ -1,0 +1,58 @@
+{
+  "cena": {
+    "id": 0,
+    "background":"quartel",
+    "dialogos": {
+      "numeroBaloes":2,
+      "numeroEscolhas":2,
+      "personagem": "Gatovaldo",
+      "texto": [[
+        { "string": " ", "speed": 80, "classes": ["default","trocaPlayer"] },
+        { "string": "Enfim, como eu ia dizendo, tenho que apresentá-los às novatas da revolução:", "speed": 80 },
+        { "string": " ", "speed": 80, "classes": ["katarina"] },
+        { "string": "Katarina Kabrera", "speed": 80, "classes": ["red"]},
+        { "string": ", herdeira, dona da maior produtora de rações para gatos do país.", "speed": 80},
+        { "string": "Ah, e tentem não se irritar, ela pode parecer descolada,", "speed": 80},
+        { "string": "mas continua sendo uma patricinha metida.", "speed": 80 }
+      ],[
+        { "string": " ", "speed": 80, "classes": ["default"] },
+        { "string": "Como já devem imaginar, a sua participação na revolução é muito valiosa,", "speed": 80 },
+        { "string": " ", "speed": 80, "classes": ["feliz"] },
+        { "string": "se é que me entendem.", "speed": 80 },
+        { "string": " ", "speed": 80, "classes": ["default"] },
+        { "string": "Aliás, ela se voluntariou a participar do movimento após as sanções que o governo impos aos seus produtos, vocês devem imaginar o porquê.", "speed": 80 }
+        
+      ]]
+    },
+    "escolhas": {
+      "escolha1": {
+        "texto": [
+          { "string": "Aquele maldito rato..." }
+        ],
+        "trust": "0",
+        "paraCena": "0a4"
+      },
+      "escolha2": {
+        "texto": [
+          { "string": "Pobres gatos..."}
+        ],
+        "trust": "0",
+        "paraCena": "0b4"
+      },
+      "escolha3": {
+           "texto": [
+          { "string": "=" }
+        ],
+        "trust": "-1",
+        "paraCena": "-"
+      },
+      "escolha4": {
+           "texto": [
+          { "string": "-" }
+        ],
+        "trust": "-1",
+        "paraCena": "-"
+      }
+    }
+  }
+}
