@@ -1,0 +1,54 @@
+{
+  "cena": {
+    "id": 0,
+    "background":"restaurante",
+    "dialogos": {
+      "numeroBaloes":4,
+      "numeroEscolhas":1,
+      "personagem": "Alessandra",
+      "texto": [[
+        { "string": " ", "speed": 60, "classes": ["brava"] },
+        { "string": "essa comida tem o mesmo gosto da comida do lugar em que me mantiveram presa por todos esses anos,", "speed": 60 }
+      ],[
+        { "string": " ", "speed": 60, "classes": ["brava"] },
+        { "string": " você não sabia disso, e não pode contar a ninguém, agora, precisamos sair, depois conversaremos mais sobre isso.", "speed": 60}
+      ],[
+        { "string": " ", "speed": 60, "classes": ["brava"] },
+        { "string": " *Ela levanta da cadeira, deixa umas notas de dinheiro na mesa, puxa você pelo ombro, e vocês saem do restaurante*", "speed": 60, "classes": ["Narrador"]}
+      ],[
+        { "string": " ", "speed": 60, "classes": ["brava"] },
+        { "string": " *você está confuso, mas ela parece ter um bom motivo para estar assustada", "speed": 60, "classes": ["Narrador"]}
+      ]]
+    },
+    "escolhas": {
+      "escolha1": {
+        "texto": [
+          { "string": "Fim da missão" }
+        ],
+        "trust": "0",
+        "paraCena": "interludio2"
+      },
+      "escolha2": {
+        "texto": [
+          { "string": "Mas como?" }
+        ],
+        "trust": "0",
+        "paraCena": "2a17"
+      },
+      "escolha3": {
+           "texto": [
+          { "string": "=" }
+        ],
+        "trust": "-1",
+        "paraCena": "-"
+      },
+      "escolha4": {
+           "texto": [
+          { "string": "-" }
+        ],
+        "trust": "-1",
+        "paraCena": "-"
+      }
+    }
+  }
+}

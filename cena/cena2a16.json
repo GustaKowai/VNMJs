@@ -1,0 +1,45 @@
+{
+  "cena": {
+    "id": 0,
+    "background":"restaurante",
+    "dialogos": {
+      "numeroBaloes":1,
+      "numeroEscolhas":2,
+      "personagem": "Alessandra",
+      "texto": [[
+        { "string": " ", "speed": 60, "classes": ["brava"] },
+        { "string": "Não, não está tudo bem, precisamos sair daqui agora, tem alguma coisa de estranho nessa comida, acho que estamos sendo observados", "speed": 60 }
+      ]]
+    },
+    "escolhas": {
+      "escolha1": {
+        "texto": [
+          { "string": "O que?" }
+        ],
+        "trust": "0",
+        "paraCena": "2a17"
+      },
+      "escolha2": {
+        "texto": [
+          { "string": "Mas como?" }
+        ],
+        "trust": "0",
+        "paraCena": "2a17"
+      },
+      "escolha3": {
+           "texto": [
+          { "string": "=" }
+        ],
+        "trust": "-1",
+        "paraCena": "-"
+      },
+      "escolha4": {
+           "texto": [
+          { "string": "-" }
+        ],
+        "trust": "-1",
+        "paraCena": "-"
+      }
+    }
+  }
+}

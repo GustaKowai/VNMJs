@@ -1,0 +1,48 @@
+{
+  "cena": {
+    "id": 0,
+    "background":"restaurante",
+    "dialogos": {
+      "numeroBaloes":2,
+      "numeroEscolhas":2,
+      "personagem": "Alessandra",
+      "texto": [[
+        { "string": " ", "speed": 60, "classes": ["feliz"] },
+        { "string": "Com todo o prazer!", "speed": 60 }
+      ],[
+        { "string": " ", "speed": 60, "classes": ["triste"] },
+        { "string": "*ela da uma garfada e fica paralisada*", "speed": 60, "classes": ["Narrador"]  }
+      ]]
+    },
+    "escolhas": {
+      "escolha1": {
+        "texto": [
+          { "string": "Está tudo bem?" }
+        ],
+        "trust": "0",
+        "paraCena": "2a16"
+      },
+      "escolha2": {
+        "texto": [
+          { "string": "O que foi? Viu um fantasma?" }
+        ],
+        "trust": "0",
+        "paraCena": "2b16"
+      },
+      "escolha3": {
+           "texto": [
+          { "string": "=" }
+        ],
+        "trust": "-1",
+        "paraCena": "-"
+      },
+      "escolha4": {
+           "texto": [
+          { "string": "-" }
+        ],
+        "trust": "-1",
+        "paraCena": "-"
+      }
+    }
+  }
+}

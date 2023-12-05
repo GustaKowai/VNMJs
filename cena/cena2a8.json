@@ -1,0 +1,51 @@
+{
+  "cena": {
+    "id": 0,
+    "background":"restaurante",
+    "dialogos": {
+      "numeroBaloes":3,
+      "numeroEscolhas":4,
+      "personagem": "Alessandra",
+      "texto": [[
+        { "string": " ", "speed": 60, "classes": ["default"] },
+        { "string": "era famous do kanye west, nao tenho a menor ideia do que rolou entre eles so sei que essa musica ai nao eh coisa boa pra ela nao", "speed": 60 }
+        ],[
+        { "string": " ", "speed": 60, "classes": ["humor"] },
+        { "string": "Ela parece inflexível, a musica nem era tão ruim assim", "speed": 60, "classes": ["Narrador"] }
+        ],[
+        { "string": " ", "speed": 60, "classes": ["humor"] },
+        { "string": "Aliás, será que eu deixei muito claro meu gosto músical? Odeio fazer isso, detesto ser previsível, me fala algo que você acha que eu gosto", "speed": 60}
+      ]]
+    },
+    "escolhas": {
+      "escolha1": {
+        "texto": [
+          { "string": "A day to remember" }
+        ],
+        "trust": "0",
+        "paraCena": "-"
+      },
+      "escolha2": {
+        "texto": [
+          { "string": "Ivete Sangalo"}
+        ],
+        "trust": "0",
+        "paraCena": "="
+      },
+      "escolha3": {
+           "texto": [
+          { "string": "Barões da Pisadinha" }
+        ],
+        "trust": "-1",
+        "paraCena": "-"
+      },
+      "escolha4": {
+           "texto": [
+          { "string": "One Direction" }
+        ],
+        "trust": "-1",
+        "paraCena": "-"
+      }
+    }
+  }
+}

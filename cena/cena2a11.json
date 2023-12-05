@@ -1,0 +1,59 @@
+{
+  "cena": {
+    "id": 0,
+    "background":"restaurante",
+    "dialogos": {
+      "numeroBaloes":5,
+      "numeroEscolhas":2,
+      "personagem": "Alessandra",
+      "texto": [[
+        { "string": " ", "speed": 60, "classes": ["default"] },
+        { "string": "Ah, eu sinceramente não ligava nem um pouco pra isso,", "speed": 60 },
+        { "string": " ", "speed": 60, "classes": ["brava"] },
+        { "string": "o que mais me deixa transtornada é ter que usar essa coisa aqui que ele chama de roupa, que visual terrível!", "speed": 60}
+      ],[
+        { "string": " ", "speed": 60, "classes": ["default"] },
+        { "string": "*O garçom chega com o pedido de vocês*", "speed": 60, "classes": ["Narrador"] }
+      ],[
+        { "string": " ", "speed": 60, "classes": ["vazio"] },
+        { "string": "Boa noite, aqui está.", "speed": 60 }
+      ],[
+        { "string": " ", "speed": 60, "classes": ["feliz"] },
+        { "string": "Caraca, uau, isso aqui parece estar muito gostoso", "speed": 60}
+      ],[
+        { "string": " ", "speed": 60, "classes": ["default"] },
+        { "string": "*a comida realmente parece estar muito boa*", "speed": 60, "classes": ["Narrador"] }
+      ]]
+    },
+    "escolhas": {
+      "escolha1": {
+        "texto": [
+          { "string": "Pedir para ela experimentar primeiro" }
+        ],
+        "trust": "0",
+        "paraCena": "2a15"
+      },
+      "escolha2": {
+        "texto": [
+          { "string": "Experimentar primeiro","classes": ["-"] }
+        ],
+        "trust": "0",
+        "paraCena": "2b15"
+      },
+      "escolha3": {
+           "texto": [
+          { "string": "=" }
+        ],
+        "trust": "-1",
+        "paraCena": "-"
+      },
+      "escolha4": {
+           "texto": [
+          { "string": "-" }
+        ],
+        "trust": "-1",
+        "paraCena": "-"
+      }
+    }
+  }
+}

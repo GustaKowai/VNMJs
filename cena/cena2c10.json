@@ -1,0 +1,118 @@
+{
+  "cena": {
+    "id": 0,
+    "background":"restaurante",
+    "dialogos": {
+      "numeroBaloes":27,
+      "numeroEscolhas":2,
+      "personagem": "Alessandra",
+      "texto": [[
+        { "string": " ", "speed": 60, "classes": ["default"] },
+        { "string": "Arriscado, mas dá pra gente tentar... ", "speed": 60 }
+      ],[
+        { "string": "*Ela vira de volta ao traficante*", "speed": 60, "classes": ["Narrador"] }
+      ],[
+        { "string": " ", "speed": 60, "classes": ["default"] },
+        { "string": "E como exatamente a gente sabe que você está falando a verdade?.", "speed": 60 }
+      ],[
+        { "string": " ", "speed": 60, "classes": ["traficante"] },
+        { "string": "É... vocês acreditam?", "speed": 60}
+      ],[
+        { "string": " ", "speed": 60, "classes": ["default"] },
+        { "string": "Nada disso, a gente quer ver a arma funcionando", "speed": 60 }
+      ],[
+        { "string": " ", "speed": 60, "classes": ["traficante"] },
+        { "string": "Vocês... querem transformar alguém daqui em tofu?", "speed": 60 }
+      ],[
+        { "string": " ", "speed": 60, "classes": ["surpresa"] },
+        { "string": "Essa é a sua sugestão?", "speed": 60}
+      ],[
+        { "string": " ", "speed": 60, "classes": ["traficante"] },
+        { "string": "Não! Digo, não sei? só to tentando te entender", "speed": 60 }
+      ],[
+        { "string": " ", "speed": 60, "classes": ["feliz"] },
+        { "string": "Me empresta isso aqui, vou transformar aquele cara sozinho ali em tofu, se ninguém perceber e a gente não for preso o diamante é todo seu.", "speed": 60}
+      ],[
+        { "string": " ", "speed": 60, "classes": ["traficante"] },
+        { "string": "Espera! mas por que aquele homem??", "speed": 60}
+      ],[
+        { "string": " ", "speed": 60, "classes": ["default"] },
+        { "string": "Porque ele... Está sozinho?", "speed": 60}
+      ],[
+        { "string": " ", "speed": 60, "classes": ["traficante"] },
+        { "string": "Ele pode apenas estar exercendo a sua liberdade! o que te garante que ele não tenha alguém esperando por ele em casa?", "speed": 60 }
+      ],[
+        { "string": " ", "speed": 60, "classes": ["default"] },
+        { "string": "Cara, ninguém vai comer sozinho em um restaurante desses, esse ai deve ser um milhonário serial killer excêntrico", "speed": 60}
+      ],[
+        { "string": " ", "speed": 60, "classes": ["traficante"] },
+        { "string": "Tá bom... Só toma cuidado para mirar certo e para não levantar nenhum tipo de suspeita", "speed": 60}
+      ],[
+        { "string": "*Ele entrega a arma tofuzadora pra ela*", "speed": 60,"classes": ["Narrador"] }
+      ],[
+        { "string": " ", "speed": 60, "classes": ["default"] },
+        { "string": "Só uma dúvida, como exatamente isso vai funcionar mesmo? Ele vai virar tofu e todo mundo aqui em volta não vai entender nada?", "speed": 60 }
+      ],[
+        { "string": " ", "speed": 60, "classes": ["traficante"] },
+        { "string": "basicamente é isso, a gente provavelmente não se lembrará do momento em que ele se transformou em tofu também, mas nos lembraremos dessa conversa, ", "speed": 60}
+      ],[
+        { "string": "então saberemos o que aconteceu, agora para todo o resto das pessoas, ele simplesmente não existiu", "speed": 60}
+      ],[
+        { "string": " ", "speed": 60, "classes": ["feliz"] },
+        { "string": "Entendi... Agora me fala um pouco sobre você, ta solteiro?", "speed": 60}
+      ],[
+        { "string": " ", "speed": 60, "classes": ["traficante"] },
+        { "string": "Gata, estou sim, mas caso não tenha percebido ainda eu não me interesso por-", "speed": 60}
+      ],[
+        { "string": "Espera, NÃO!", "speed": 60 }
+      ],[
+        { "string": " ", "speed": 60, "classes": ["feliz"] },
+        { "string": "*Ela atira nele*", "speed": 60, "classes": ["Narrador"]  }
+      ],[
+        { "string": " ", "speed": 60, "classes": ["default"] },
+        { "string": "*por um momento, você se questiona por que tem um tofu na cadeira com vocês*", "speed": 60, "classes": ["Narrador"]}
+      ],[
+        { "string": " ", "speed": 60, "classes": ["vazio"] },
+        { "string": "*Ele sai do restaurante dando pulinhos*", "speed": 60, "classes": ["Narrador"] }
+      ],[
+        { "string": " ", "speed": 60, "classes": ["default"] },
+        { "string": "Espera... Isso realmente aconteceu?", "speed": 60}
+      ],[
+        { "string": " ", "speed": 60, "classes": ["default"] },
+        { "string": "*Você se lembra da conversa*", "speed": 60, "classes": ["Narrador"]}
+      ],[
+        { "string": "*As pessoas ao redor agem como se nada tivesse acontecido*", "speed": 60, "classes": ["Narrador"]}
+      ]]
+    },
+    "escolhas": {
+      "escolha1": {
+        "texto": [
+          { "string": "Comer o tofu que está na cadeira do seu lado" }
+        ],
+        "trust": "0",
+        "paraCena": "2a13"
+      },
+      "escolha2": {
+        "texto": [
+          { "string": "Oferecer o tofu a ela"}
+        ],
+        "trust": "0",
+        "paraCena": "2b13"
+      },
+      "escolha3": {
+           "texto": [
+          { "string": "Vamos transformar ele em tofu" }
+        ],
+        "trust": "-1",
+        "paraCena": "2c10"
+      },
+      "escolha4": {
+           "texto": [
+          { "string": "Contate o Gatovaldo" }
+        ],
+        "trust": "-1",
+        "paraCena": "2d10"
+      }
+    }
+  }
+}

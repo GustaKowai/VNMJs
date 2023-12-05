@@ -1,0 +1,51 @@
+{
+  "cena": {
+    "id": 0,
+    "background":"restaurante",
+    "dialogos": {
+      "numeroBaloes":1,
+      "numeroEscolhas":2,
+      "personagem": "Alessandra",
+      "texto": [[
+        { "string": " ", "speed": 60, "classes": ["humor"] },
+        { "string": "", "speed": 60 },
+        { "string": "-", "speed": 60},
+        { "string": " ", "speed": 60, "classes": ["humor"] },
+        { "string": "-", "speed": 60,"classes": ["-"] }
+      ],[
+        { "string": " ", "speed": 60, "classes": ["humor"] },
+        { "string": "-", "speed": 60 }
+      ]]
+    },
+    "escolhas": {
+      "escolha1": {
+        "texto": [
+          { "string": "-" }
+        ],
+        "trust": "0",
+        "paraCena": "-"
+      },
+      "escolha2": {
+        "texto": [
+          { "string": "-!","classes": ["-"] }
+        ],
+        "trust": "0",
+        "paraCena": "="
+      },
+      "escolha3": {
+           "texto": [
+          { "string": "=" }
+        ],
+        "trust": "-1",
+        "paraCena": "-"
+      },
+      "escolha4": {
+           "texto": [
+          { "string": "-" }
+        ],
+        "trust": "-1",
+        "paraCena": "-"
+      }
+    }
+  }
+}

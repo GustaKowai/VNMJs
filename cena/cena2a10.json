@@ -1,0 +1,113 @@
+{
+  "cena": {
+    "id": 0,
+    "background":"restaurante",
+    "dialogos": {
+      "numeroBaloes":23,
+      "numeroEscolhas":2,
+      "personagem": "Alessandra",
+      "texto": [[
+        { "string": " ", "speed": 60, "classes": ["brava"] },
+        { "string": "O que de mais valioso eu poderia dar pra ele? Esse vestido que foi usado pela beyonce no concerto em Munique na Alemanha em 2008? Ele nunca iria aceit-", "speed": 60 },
+        { "string": " ", "speed": 60, "classes": ["feliz"] },
+        { "string": "Espera, ótima ideia!", "speed": 60 }
+      ],[
+        { "string": "*Ela vira de volta ao traficante*", "speed": 60, "classes": ["Narrador"] }
+      ],[
+        { "string": " ", "speed": 60, "classes": ["default"] },
+        { "string": "Então, coleguinha, você gosta de divas pop, presumo eu", "speed": 60 }
+      ],[
+        { "string": " ", "speed": 60, "classes": ["default"] },
+        { "string": "*Os olhos dele brilham*", "speed": 60, "classes": ["Narrador"] }
+      ],[
+        { "string": " ", "speed": 60, "classes": ["traficante"] },
+        { "string": "O-oque você quer dizer com isso?", "speed": 60 }
+      ],[
+        { "string": " ", "speed": 60, "classes": ["feliz"] },
+        { "string": "Muito, bem, está vendo esse vestido que eu estou usando?", "speed": 60}
+      ],[
+        { "string": " ", "speed": 60, "classes": ["traficante"] },
+        { "string": "S-sim, o que tem nele?", "speed": 60 }
+      ],[
+        { "string": " ", "speed": 60, "classes": ["feliz"] },
+        { "string": "Munique, 2008, isso te lembra alguma coisa?", "speed": 60}
+      ],[
+        { "string": " ", "speed": 60, "classes": ["traficante"] },
+        { "string": "*Ele começa a pensar*", "speed": 60 , "classes": ["Narrador"]}
+      ],[
+        { "string": "ESPERA, esse não é o vestido que a b-b-be-beyon-", "speed": 60 }
+      ],[
+        { "string": " ", "speed": 60, "classes": ["feliz"] },
+        { "string": "Sim, querido, ele é, pode pesquisar se sua memória estiver fraca.", "speed": 60}
+      ],[
+        { "string": " ", "speed": 60, "classes": ["traficante"] },
+        { "string": "E-eu, eu preciso conversar com o meu assistente", "speed": 60 }
+      ],[
+        { "string": " ", "speed": 60, "classes": ["vazio"] },
+        { "string": "*Ele se retira da mesa e vai até um lugar um pouco afastado para realizar uma ligação", "speed": 60 }
+      ],[
+        { "string": " ", "speed": 60, "classes": ["feliz"] },
+        { "string": "Acho que a gente mandou bem!", "speed": 60}
+      ],[
+        { "string": " ", "speed": 60, "classes": ["vazio"] },
+        { "string": "*\"AAH!\"*", "speed": 60, "classes": ["maior"] },
+        { "string": "*Vocês ouvem do telefone dele*", "speed": 60, "classes": ["Narrador"] }
+      ],[
+        { "string": " ", "speed": 60, "classes": ["traficante"] },
+        { "string": "Ta na mão!", "speed": 60 }
+      ],[
+        { "string": " ", "speed": 60, "classes": ["traficante"] },
+        { "string": "T-tudo bem, a arma é sua, mas eu preciso do diamante e do vestido agora", "speed": 60 }
+      ],[
+        { "string": " ", "speed": 60, "classes": ["brava"] },
+        { "string": "O que? E eu saio daqui como?", "speed": 60}
+      ],[
+        { "string": " ", "speed": 60, "classes": ["traficante"] },
+        { "string": "Eu te empresto minhas roupas, mas quero de volta depois", "speed": 60 }
+      ],[
+        { "string": " ", "speed": 60, "classes": ["brava"] },
+        { "string": "Argh, tá bom...", "speed": 60}
+      ],[
+        { "string": " ", "speed": 60, "classes": ["vazio"] },
+        { "string": "*Eles vão até o banheiro e trocam de roupa*", "speed": 60, "classes": ["Narrador"] }
+      ],[
+        { "string": " ", "speed": 60, "classes": ["traficante"] },
+        { "string": "Magnifico! Bom, tchauzinho!", "speed": 60 },
+        { "string": "*Ele sai do restaurante feliz*", "speed": 60, "classes": ["Narrador"] }
+      ],[
+        { "string": " ", "speed": 60, "classes": ["brava"] },
+        { "string": "Mas que droga, o preço foi bem maior do que eu imaginava.", "speed": 60}
+      ]]
+    },
+    "escolhas": {
+      "escolha1": {
+        "texto": [
+          { "string": "Sinto muito pelo seu vestido" }
+        ],
+        "trust": "0",
+        "paraCena": "2a11"
+      },
+      "escolha2": {
+        "texto": [
+          { "string": "Sinto muito pelas roupas que você está vestindo"}
+        ],
+        "trust": "0",
+        "paraCena": "2b11"
+      },
+      "escolha3": {
+           "texto": [
+          { "string": "Vamos transformar ele em tofu" }
+        ],
+        "trust": "-1",
+        "paraCena": "2c10"
+      },
+      "escolha4": {
+           "texto": [
+          { "string": "Contate o Gatovaldo" }
+        ],
+        "trust": "-1",
+        "paraCena": "2d10"
+      }
+    }
+  }
+}

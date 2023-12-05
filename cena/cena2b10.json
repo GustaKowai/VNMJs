@@ -1,0 +1,119 @@
+{
+  "cena": {
+    "id": 0,
+    "background":"restaurante",
+    "dialogos": {
+      "numeroBaloes":25,
+      "numeroEscolhas":2,
+      "personagem": "Alessandra",
+      "texto": [[
+        { "string": " ", "speed": 60, "classes": ["default"] },
+        { "string": "Agora você falou a minha língua, e se a gente disser que... ", "speed": 60 },
+        { "string": " ", "speed": 60, "classes": ["feliz"] },
+        { "string": "Já sei!", "speed": 60 }
+      ],[
+        { "string": "*Ela vira de volta ao traficante*", "speed": 60, "classes": ["Narrador"] }
+      ],[
+        { "string": " ", "speed": 60, "classes": ["default"] },
+        { "string": "Então, meu querido, o nosso preço também aumentou.", "speed": 60 }
+      ],[
+        { "string": " ", "speed": 60, "classes": ["traficante"] },
+        { "string": "O que?", "speed": 60}
+      ],[
+        { "string": " ", "speed": 60, "classes": ["default"] },
+        { "string": "Isso mesmo, ta vendo esse diamante aqui?", "speed": 60 }
+      ],[
+        { "string": " ", "speed": 60, "classes": ["traficante"] },
+        { "string": "Sim, o do Jared Leto, o que tem nele?", "speed": 60 }
+      ],[
+        { "string": " ", "speed": 60, "classes": ["feliz"] },
+        { "string": "Então, ele não fez parte de um look só do Jared Leto.", "speed": 60}
+      ],[
+        { "string": " ", "speed": 60, "classes": ["traficante"] },
+        { "string": "Não? Espera, o que você quer dizer com isso?", "speed": 60 }
+      ],[
+        { "string": " ", "speed": 60, "classes": ["feliz"] },
+        { "string": "Quero dizer que eu já reaproveitei ele em dois grandes visuais, e se você adivinhar qual foi esse outro visual eu trocarei ele pela arma e não requisitarei mais nada de você.", "speed": 60}
+      ],[
+        { "string": " ", "speed": 60, "classes": ["traficante"] },
+        { "string": "E-eu posso analisá-lo?", "speed": 60}
+      ],[
+        { "string": " ", "speed": 60, "classes": ["feliz"] },
+        { "string": "Claro, aqui está, não tente nada estúpido.", "speed": 60}
+      ],[
+        { "string": " ", "speed": 60, "classes": ["traficante"] },
+        { "string": "*Ele começa a observar minuciosamente o diamante, cheirando-o, ouvindo-o, sentindo-o até que paralisa em choque*", "speed": 60, "classes": ["Narrador"] }
+      ],[
+        { "string": " ", "speed": 60, "classes": ["traficante"] },
+        { "string": "ESSE- NÃO ME DIGA QUE ESSE DIAMANTE FOI UTILIZADO NO FIGURINO DA KATY PERRY EM DARK HORSE, FOI?", "speed": 60, "classes": ["maior"]}
+      ],[
+        { "string": " ", "speed": 60, "classes": ["default"] },
+        { "string": "*Alessandra finge surpresa*", "speed": 60,"classes": ["Narrador"] }
+      ],[
+        { "string": " ", "speed": 60, "classes": ["default"] },
+        { "string": "*Ela olha para você e diz sussurando alto*", "speed": 60,"classes": ["Narrador"] }
+      ],[
+        { "string": " ", "speed": 60, "classes": ["surpresa"] },
+        { "string": "Eu pensei que ele não fosse descobrir, como?", "speed": 60}
+      ],[
+        { "string": " ", "speed": 60, "classes": ["feliz"] },
+        { "string": "*ela te dá uma piscadinha sutil*", "speed": 60,"classes": ["Narrador"] }
+      ],[
+        { "string": " ", "speed": 60, "classes": ["feliz"] },
+        { "string": "Certo, trato é trato, você acertou, eu aceito trocá-lo pela arma nessas condições", "speed": 60}
+      ],[
+        { "string": " ", "speed": 60, "classes": ["traficante"] },
+        { "string": "*ele parece impressionado*", "speed": 60, "classes": ["Narrador"] }
+      ],[
+        { "string": " ", "speed": 60, "classes": ["traficante"] },
+        { "string": "M-muito obrigado", "speed": 60 }
+      ],[
+        { "string": " ", "speed": 60, "classes": ["feliz"] },
+        { "string": "*eles realizam a troca entre a arma e o diamante*", "speed": 60, "classes": ["Narrador"]  }
+      ],[
+        { "string": " ", "speed": 60, "classes": ["traficante"] },
+        { "string": "Esplêndido! foi um prazer realizar negócios com vocês, bye bye!", "speed": 60}
+      ],[
+        { "string": " ", "speed": 60, "classes": ["vazio"] },
+        { "string": "*Ele sai do restaurante dando pulinhos*", "speed": 60, "classes": ["Narrador"] }
+      ],[
+        { "string": " ", "speed": 60, "classes": ["default"] },
+        { "string": "Mas que figura ein,", "speed": 60},
+        { "string": " ", "speed": 60, "classes": ["feliz"] },
+        { "string": "todo dia sai de casa um malandro e um otario, bate aqui!", "speed": 60}
+      ],[
+        { "string": "*você retribui o cumprimento dela*", "speed": 60, "classes": ["Narrador"] }
+      ]]
+    },
+    "escolhas": {
+      "escolha1": {
+        "texto": [
+          { "string": "Você mandou bem!" }
+        ],
+        "trust": "0",
+        "paraCena": "2a12"
+      },
+      "escolha2": {
+        "texto": [
+          { "string": "Mandamos bem!"}
+        ],
+        "trust": "0",
+        "paraCena": "2b12"
+      },
+      "escolha3": {
+           "texto": [
+          { "string": "Vamos transformar ele em tofu" }
+        ],
+        "trust": "-1",
+        "paraCena": "2c10"
+      },
+      "escolha4": {
+           "texto": [
+          { "string": "Contate o Gatovaldo" }
+        ],
+        "trust": "-1",
+        "paraCena": "2d10"
+      }
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "cena": {
+    "id": 0,
+    "background":"restaurante",
+    "dialogos": {
+      "numeroBaloes":9,
+      "numeroEscolhas":2,
+      "personagem": "Alessandra",
+      "texto": [[
+        { "string": " ", "speed": 60, "classes": ["default"] },
+        { "string": "*Você pega o tofu da cadeira e devora ele em uma mordida só*", "speed": 60, "classes": ["Narrador"] }
+      ],[
+        { "string": " ", "speed": 60, "classes": ["surpresa"] },
+        { "string": "*Tem gosto de tofu*", "speed": 60, "classes": ["Narrador"]}
+      ],[
+        { "string": " ", "speed": 60, "classes": ["surpresa"] },
+        { "string": "Espera, VOCÊ ACABOU DE COMER O NOSSO TRAFICANTE? MEU PLANO ERA TENTAR DESENVOLVER UMA TECNOLOGIA REVERSA PARA TRAZER ELE DE VOLTA!", "speed": 60, "classes": ["maior"]}
+      ],[
+        { "string": " ", "speed": 60, "classes": ["surpresa"] },
+        { "string": "AGORA SOMOS ASSSASSINOS!!!! E VOCÊ É UM CANIBAL!!!", "speed": 60, "classes": ["maior"]}
+      ],[
+        { "string": " ", "speed": 60, "classes": ["feliz"] },
+        { "string": "Bincadeirinha, era só um pedaço de tofu kkkkkkk", "speed": 60}
+      ],[
+        { "string": " ", "speed": 60, "classes": ["default"] },
+        { "string": "*O garçom chega com o pedido de vocês*", "speed": 60, "classes": ["Narrador"] }
+      ],[
+        { "string": " ", "speed": 60, "classes": ["vazio"] },
+        { "string": "Boa noite, aqui está.", "speed": 60 }
+      ],[
+        { "string": " ", "speed": 60, "classes": ["feliz"] },
+        { "string": "Caraca, uau, isso aqui parece estar muito gostoso", "speed": 60}
+      ],[
+        { "string": " ", "speed": 60, "classes": ["default"] },
+        { "string": "*a comida realmente parece estar muito boa*", "speed": 60, "classes": ["Narrador"] }
+      ]]
+    },
+    "escolhas": {
+      "escolha1": {
+        "texto": [
+          { "string": "Pedir para ela experimentar primeiro" }
+        ],
+        "trust": "0",
+        "paraCena": "2a15"
+      },
+      "escolha2": {
+        "texto": [
+          { "string": "Experimentar primeiro","classes": ["-"] }
+        ],
+        "trust": "0",
+        "paraCena": "2b15"
+      },
+      "escolha3": {
+           "texto": [
+          { "string": "=" }
+        ],
+        "trust": "-1",
+        "paraCena": "-"
+      },
+      "escolha4": {
+           "texto": [
+          { "string": "-" }
+        ],
+        "trust": "-1",
+        "paraCena": "-"
+      }
+    }
+  }
+}

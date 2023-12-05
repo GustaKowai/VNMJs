@@ -1,0 +1,124 @@
+{
+  "cena": {
+    "id": 0,
+    "background":"restaurante",
+    "dialogos": {
+      "numeroBaloes":28,
+      "numeroEscolhas":2,
+      "personagem": "Alessandra",
+      "texto": [[
+        { "string": " ", "speed": 60, "classes": ["default"] },
+        { "string": "Aquele gato vagabundo deve estar dormindo, mas vale a pena a tentativa", "speed": 60 }
+      ],[
+        { "string": "*Ela pega o celular e começa a discar um número*", "speed": 60, "classes": ["Narrador"] }
+      ],[
+        { "string": " ", "speed": 60, "classes": ["triste"] },
+        { "string": "Ele não vai atender", "speed": 60 }
+      ],[
+        { "string": " ", "speed": 60, "classes": ["vazio"] },
+        { "string": "Miau?", "speed": 60}
+      ],[
+        { "string": " ", "speed": 60, "classes": ["default"] },
+        { "string": "General?", "speed": 60 }
+      ],[
+        { "string": " ", "speed": 60, "classes": ["vazio"] },
+        { "string": "Sim?", "speed": 60 }
+      ],[
+        { "string": " ", "speed": 60, "classes": ["default"] },
+        { "string": "Temos um problema...", "speed": 60}
+      ],[
+        { "string": " ", "speed": 60, "classes": ["default"] },
+        { "string": "*Ela explica a situação para ele*", "speed": 60,"classes": ["Narrador"] }
+      ],[
+        { "string": " ", "speed": 60, "classes": ["default"] },
+        { "string": "Entendo... Irei fazer isso então", "speed": 60}
+      ],[
+        { "string": " ", "speed": 60, "classes": ["default"] },
+        { "string": "*Ela desliga o telefone*", "speed": 60}
+      ],[
+        { "string": " ", "speed": 60, "classes": ["feliz"] },
+        { "string": "Ele é um gênio!", "speed": 60}
+      ],[
+        { "string": " ", "speed": 60, "classes": ["traficante"] },
+        { "string": "*ela vira de volta ao traficante*", "speed": 60,"classes": ["Narrador"] }
+      ],[
+        { "string": " ", "speed": 60, "classes": ["brava"] },
+        { "string": "Escuta só, seu merdinha, você não sabe com quem você está lidando, o nosso combinado foi o diamante pela a arma, e vai ser isso que a gente irá trocar,", "speed": 60}
+      ],[
+        { "string": " ", "speed": 60, "classes": ["brava"] },
+        { "string": "o que você fez ou não fez de extra nessa arma simplesmente não interessa, então vamos fazer o seguinte, ou você sai desse restaurante com o seu diamante e a gente sai com a nossa arma, ou ninguém sai daqui, o que você me diz?", "speed": 60}
+      ],[
+        { "string": "*Ele começa a suar frio*", "speed": 60,"classes": ["Narrador"] }
+      ],[
+        { "string": " ", "speed": 60, "classes": ["traficante"] },
+        { "string": "T-ta bom...", "speed": 60 }
+      ],[
+        { "string": " ", "speed": 60, "classes": ["traficante"] },
+        { "string": "*ele passa a arma por debaixo da mesa*", "speed": 60, "classes": ["Narrador"]}
+      ],[
+        { "string": " ", "speed": 60, "classes": ["brava"] },
+        { "string": "acho bom!", "speed": 60}
+      ],[
+        { "string": " ", "speed": 60, "classes": ["default"] },
+        { "string": "*ela desliza o diamante para ele*", "speed": 60, "classes": ["Narrador"]}
+      ],[
+        { "string": " ", "speed": 60, "classes": ["traficante"] },
+        { "string": "...", "speed": 90}
+      ],[
+        { "string": " ", "speed": 60, "classes": ["default"] },
+        { "string": "...", "speed": 60 }
+      ],[
+        { "string": " ", "speed": 60, "classes": ["default"] },
+        { "string": "*Os dois ficam em silêncio por alguns segundos*", "speed": 60, "classes": ["Narrador"]}
+      ],[
+        { "string": " ", "speed": 60, "classes": ["traficante"] },
+        { "string": "B-b-bom, acho que é melhor eu ir indo haha...", "speed": 60 }
+      ],[
+        { "string": " ", "speed": 60, "classes": ["brava"] },
+        { "string": "grrrrrrrr ", "speed": 60}
+      ],[
+        { "string": " ", "speed": 60, "classes": ["brava"] },
+        { "string": "*Ela começa a rosnar*", "speed": 60, "classes": ["Narrador"]}
+      ],[
+        { "string": " ", "speed": 60, "classes": ["traficante"] },
+        { "string": "O-ok, t-tchauzinho!", "speed": 90}
+      ],[
+        { "string": " ", "speed": 60, "classes": ["vazio"] },
+        { "string": "*Ele levanta apressado e sai correndo*", "speed": 60, "classes": ["Narrador"]}
+      ],[
+        { "string": " ", "speed": 60, "classes": ["brava"] },
+        { "string": "Ufa! Isso foi tenso ", "speed": 60}
+      ]]
+    },
+    "escolhas": {
+      "escolha1": {
+        "texto": [
+          { "string": "Você acabou de rosnar?" }
+        ],
+        "trust": "0",
+        "paraCena": "2a14"
+      },
+      "escolha2": {
+        "texto": [
+          { "string": "Que porra foi essa?"}
+        ],
+        "trust": "0",
+        "paraCena": "2a14"
+      },
+      "escolha3": {
+           "texto": [
+          { "string": "Vamos transformar ele em tofu" }
+        ],
+        "trust": "-1",
+        "paraCena": "2c10"
+      },
+      "escolha4": {
+           "texto": [
+          { "string": "Contate o Gatovaldo" }
+        ],
+        "trust": "-1",
+        "paraCena": "2d10"
+      }
+    }
+  }
+}
