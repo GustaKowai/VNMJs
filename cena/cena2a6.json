@@ -1,0 +1,129 @@
+{
+    "cena": {
+        "id": 1,
+        "background":"restaurante",
+        "dialogos": {
+          "numeroBaloes":37,
+          "numeroEscolhas":4,
+          "personagem": "Alessandra",
+          "texto": [[
+            { "string": "*Você vai até o garçom...*", "speed": 60, "classes": ["Narrador"] }
+          ],[
+            {"string": "*Vocês dois se olham em silêncio por alguns segundos*", "speed": 60, "classes": ["Narrador"]  }
+          ],[
+            { "string": "*Você diz que ele está 'servindo horrores'*", "speed": 60, "classes": ["Narrador"]   }
+          ],[
+            { "string": "*Ele não parece entender*", "speed": 60, "classes": ["Narrador"]   }
+          ],[
+            { "string": "*'Críticas favor encaminhar à gerencia'*", "speed": 60, "classes": ["Narrador"]   }
+          ],[
+            { "string": "*Ele sai andando em passos rápidos enxugando lágrimas nos olhos disfarçadamente*", "speed": 60, "classes": ["Narrador"]   }
+          ],[
+            { "string": " ", "speed": 60, "classes": ["surpresa"] },
+            { "string": "Ué?? o que aconteceu? Você não falou que ele estava bem vestido? Amei o uniforme do pessoal daqui, não entendi como alguém poderia se magoar com um elogio", "speed": 60 }
+          ],[
+            { "string": " ", "speed": 60, "classes": ["default"] },
+            { "string": "Mas tudo bem, você fez o desafio, agora eu te conto uma verdade, é assim que funciona né? vamos lá... é... sei lá, eu tenho medo de ficar sozinha", "speed": 60 }
+          ],[
+            { "string": " ", "speed": 60, "classes": ["triste"] },
+            { "string": "...", "speed": 60}
+          ],[
+            { "string": "*Vocês ficam em um silêncio constrangedor por alguns segundos*", "speed": 60, "classe": ["Narrador"]   } 
+          ],[
+            { "string": " ", "speed": 60, "classes": ["assustada"] },
+            { "string": "Eita, acho que ele chegou", "speed": 60}
+          ],[
+            { "string": "*Você olha para trás, e vê um homem parrudo, amedrontador, usando roupas formais, de óculos escuros, se aproximando da mesa de vocês*", "speed": 60, "classes": ["Narrador"]   }
+          ],[
+            { "string": "A gente ta fudido, olha o tamanho desse cara", "speed": 60}
+          ],[
+            { "string": "*Ele se aproxima em passos pesados*", "speed": 60, "classes": ["Narrador"] }
+          ],[
+            { "string": "Eu vou para o banheiro e você lida com isso, tudo bem?", "speed": 60}
+          ],[
+            { "string": "*Alessandra está suando frio, ela parece muito nervosa, ele está cada vez mais perto*", "speed": 60, "classes": ["Narrador"] }
+          ],[
+            { "string": "Cara, por que eu fui me meter nisso? aquilo é uma arma? eu vou desmaiar", "speed": 60}
+          ],[
+            { "string": "*Ele chega até a mesa de vocês e...*", "speed": 60, "classes": ["Narrador"] }
+        ],[
+            { "string": "*Ele passa reto*", "speed": 60, "classes": ["Narrador"] }
+        ],[
+            { "string": " ", "speed": 60, "classes": ["surpresa"] },
+            { "string": "...", "speed": 60}
+        ],[
+            { "string": " ", "speed": 60, "classes": ["confusa"] },
+            { "string": "?", "speed": 60}
+        ],[
+            { "string": " ", "speed": 60, "classes": ["feliz"] },
+            { "string": "Ah, acho que era o segurança", "speed": 60}
+        ],[
+            { "string": "Oieeeee", "speed": 60, "classes": ["Traficante"]}
+        ],[
+            { "string": " ", "speed": 60, "classes": ["confusa"] },
+            { "string": "O que foi isso?", "speed": 60}
+        ],[
+            { "string": "Oieeee", "speed": 60, "classes": ["Traficante"]}
+        ],[
+            { "string": "De onde está vindo isso?", "speed": 60}
+        ],[
+            { "string": "*Você percebe que enquanto se distraiam e cagavam nas calças uma pessoa de estatura baixa usando roupas rosas sentou-se à mesa com vocês*", "speed": 60, "classes": ["Narrador"] }
+        ],[
+            { "string": "Vocês são que são alessandra e-", "speed": 60, "classes": ["Traficante"]}
+        ],[
+            { "string": " ", "speed": 60, "classes": ["feliz"] },
+            { "string": "SIM! é a gente, você não sabe como é bom fazer négocios com você!", "speed": 60}
+        ],[
+            { "string": "*Ela parece aliviada*", "speed": 60, "classes": ["Narrador"] }
+        ],[
+            { "string": "Okay, bem, eu implementei algumas funções novas nessa belezinha, *ele tira a arma tofu do bolso* então o preço também subiu", "speed": 60, "classes": ["Traficante"]}
+        ],[
+            { "string": " ", "speed": 60, "classes": ["brava"] },          
+            { "string": "O que? isso não é justo, a gente está com o seu diamante aqui, esse foi o combinado", "speed": 60}
+        ],[                    
+            { "string": "*Ele parece empolgado com o diamante*", "speed": 60, "classes": ["Narrador"] }
+        ],[                    
+            { "string": "Ela agora apaga memórias em um raio de 20 metros, você transforma um prato em tofu, boom! ele nunca existiu, um ente querido, um pet, qualquer coisa! 'por que tem um tofu nessa coleira? não sei, mas parece delicioso!' é o que uma madame irá pensar quando você transformar o lulu da pomerânia dela em queijo de soja, então sim, o preço subiu.", "speed": 60, "classes": ["Traficante"]}
+        ],[                    
+            { "string": "Droga! tudo bem, preciso conversar com o meu associado primeiro, um instante", "speed": 60}
+        ],[                    
+            { "string": "*Ela vira para você e começa a cochichar*", "speed": 60, "classes": ["Narrador"] }
+        ],[ 
+            { "string": " ", "speed": 60, "classes": ["default"] },                   
+            { "string": "O que a gente vai fazer, porra?", "speed": 60}
+            ]]
+
+
+        },
+        "escolhas": {
+          "escolha1": {
+            "texto": [
+              { "string": "De mais algo valioso para ele" }
+            ],
+            "trust": "0",
+            "paraCena": "2a10"
+          },
+          "escolha2": {
+            "texto": [
+              { "string": "Invente uma mentira" }
+            ],
+            "trust": "0",
+            "paraCena": "2b10"
+          },
+          "escolha3": {
+               "texto": [
+              { "string": "Vamos transformar ele em tofu" }
+            ],
+            "trust": "0",
+            "paraCena": "2c10"
+          },
+          "escolha4": {
+               "texto": [
+              { "string": "Contate o gatovaldo" }
+            ],
+            "trust": "0",
+            "paraCena": "2d10"
+          }
+        }
+      }
+    }

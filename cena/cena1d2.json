@@ -8,10 +8,10 @@
         "personagem": "Katarina",
         "texto": [[
           { "string": " ", "speed": 60, "classes": ["brava"] },
-          { "string": "explodir tudo que aquele rato tem pra mim é como uma terapia, esse é o meu objetivo.", "speed": 60 }
+          { "string": "Explodir tudo que aquele rato tem para mim é como uma terapia, esse é o meu objetivo.", "speed": 60 }
         ],[
           { "string": " ", "speed": 60, "classes": ["feliz"] },
-          { "string": "Acho, que já podemos ir, eu vou dirigindo!", "speed": 60 }
+          { "string": "Acho que já podemos ir, eu vou dirigindo!", "speed": 60 }
         ]]
       },
       "escolhas": {

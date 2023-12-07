@@ -1,0 +1,44 @@
+{
+"cena": {
+    "id": 1,
+    "background":"atelie",
+    "dialogos": {
+      "numeroBaloes":1,
+      "numeroEscolhas":2,
+      "personagem": "Alessandra",
+      "texto": [[
+        { "string": "*Silêncio*", "speed": 60, "classes": ["Narrador"] }
+      ]]
+    },
+    "escolhas": {
+      "escolha1": {
+        "texto": [
+          { "string": "Alessandra?" }
+        ],
+        "trust": "0",
+        "paraCena": "2x2"
+      },
+      "escolha2": {
+        "texto": [
+          { "string": "Senhorita mallet?" }
+        ],
+        "trust": "0",
+        "paraCena": "2x2"
+      },
+      "escolha3": {
+           "texto": [
+          { "string": "Q?" }
+        ],
+        "trust": "-1",
+        "paraCena": "-"
+      },
+      "escolha4": {
+           "texto": [
+          { "string": "..." }
+        ],
+        "trust": "-1",
+        "paraCena": "-"
+      }
+    }
+  }
+}

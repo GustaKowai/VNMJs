@@ -7,7 +7,7 @@ const choose2 = document.getElementById('escolha2');
 const choose3 = document.getElementById('escolha3');
 const choose4 = document.getElementById('escolha4');
 var jaJogou = false;
-var add = "1a14";
+var add = "2b7";
 var paraCena1 = "";
 var paraCena2 = "";
 var paraCena3 = "";
@@ -74,12 +74,18 @@ function escolhido(num) {
       document.getElementById("escolha3").disabled = true;
       document.getElementById("escolha4").disabled = true;
       if(num == 1){
-        if(paraCena1 == interludio1||paraCena1 == interludio2)
+        if(paraCena1 == "interludio1"||paraCena1 == "interludio2"){
          if(jaJogou){
             readJson('cenafinal.json',0);
          }else{
             readJson('cena'+paraCena1+'.json',0);
+            jaJogou = true
+            console.log("Já Jogou? ",jaJogou)
          }
+        }else{
+            readJson('cena'+paraCena1+'.json',0);
+            
+        }
       }
       num == 2? readJson('cena'+paraCena2+'.json',0):console.log("nao foi para a 2");
       num == 3? readJson('cena'+paraCena3+'.json',0):console.log("nao foi para a 3");
@@ -107,3 +113,4 @@ choose4.addEventListener('click',function(){
 });
 //revealOneCharacter(letras);
 
+window.onload = readJson('cena0.json',0);

@@ -1,0 +1,49 @@
+{
+    "cena": {
+        "id": 1,
+        "background":"restaurante",
+        "dialogos": {
+          "numeroBaloes":3,
+          "numeroEscolhas":2,
+          "personagem": "Alessandra",
+          "texto": [[
+            {"string": "Ótima ideia! *Ela pega um papel e uma caneta e começa a escrever alguma coisa* toma! leva isso para ela*", "speed": 60 }
+          ],[
+            { "string": " ", "speed": 60, "classes": ["feliz"] },
+            { "string": "*Você leva o papel para a mulher no palco, ela lê e sai correndo chorando*", "speed": 60, "classes": ["Narrador"] }
+          ],[
+            { "string": "Kkkkkk boa! Meus ouvidos já estavam se cansando", "speed": 60 }  
+            ]]
+        },
+        "escolhas": {
+          "escolha1": {
+            "texto": [
+              { "string": "O que estava escrito?" }
+            ],
+            "trust": "0",
+            "paraCena": "2a8"
+          },
+          "escolha2": {
+            "texto": [
+              { "string": "Por que você não gosta dela?" }
+            ],
+            "trust": "0",
+            "paraCena": "2b8"
+          },
+          "escolha3": {
+               "texto": [
+              { "string": "-" }
+            ],
+            "trust": "0",
+            "paraCena": "-"
+          },
+          "escolha4": {
+               "texto": [
+              { "string": "..." }
+            ],
+            "trust": "-1",
+            "paraCena": "-"
+          }
+        }
+      }
+    }

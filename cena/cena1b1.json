@@ -3,65 +3,68 @@
       "id": 1,
       "background":"recepcao",
       "dialogos": {
-        "numeroBaloes":19,
+        "numeroBaloes":22,
         "numeroEscolhas":4,
         "personagem": "Katarina",
         "texto": [[
           { "string": " ", "speed": 60, "classes": ["Recepcionista"] },
-          { "string": "Ela está sim! se não se importa em esperar um pouco, ela está em sua sessão diária de Post-Generic-Slovenian-Punk-Rock", "speed": 60 },
-          { "string": "Aceita um chá de camomila fervido em sangue de carneiro? é uma bebida típica sueca.", "speed": 60 }
+          { "string": "Ela está sim! Se não se importa em esperar um pouco, ela está em sua sessão diária de Post-Generic-Slovenian-Punk-Rock.", "speed": 60 },
+          { "string": "Enquanto isso, aceita um chá de camomila fervido em sangue de carneiro? É uma bebida típica sueca.", "speed": 60 }
           ],[
-          { "string": "*Ela não aguarda por uma resposta e te serve uma xicará de um líquido viscoso esquisito...*", "speed": 60, "classes": ["Narrador"] },
-          { "string": "*Você definitivamente não quer tomar isso*", "speed": 60, "classes": ["Narrador"] }
+          { "string": "*Ela não aguarda por uma resposta e te serve uma xicará de um líquido viscoso esquisito...", "speed": 60, "classes": ["Narrador"] },
+          { "string": "Você definitivamente não quer tomar isso*", "speed": 60, "classes": ["Narrador"] }
           ],[
           { "string": "Ah! já ia me esquecendo, com licença, preciso acender o incenso do dia, você sabe, para atrair boas energias", "speed": 60 }
           ],[
           { "string": "*Ela se dirige a um armário rústico e começa a procurar em uma gaveta*", "speed": 60, "classes": ["Narrador"] }
           ],[
-          { "string": "Lavanda, orvalho do amanhecer, lírios holandeses, não... hoje é terça, cade o de terça? aqui! te achei, moshpit do slipknot!", "speed": 60 }
+          { "string": "Lavanda, orvalho do amanhecer, lírios holandeses, não... Hoje é terça, cade o de terça? Aqui! te achei, moshpit do Slipknot!", "speed": 60 }
           ],[
-          { "string": "*Ela acende o incenso, e um cheiro de rebeldia toma conta do ambiente, você nem imaginava que seria possível perceber isso olfativamente*", "speed": 60, "classes": ["Narrador"] },
-          { "string": "*A porta do escritório abre escancaradamente*", "speed": 60, "classes": ["Narrador"] }
+          { "string": "*Ela acende o incenso, e um cheiro de rebeldia toma conta do ambiente. Você nem imaginava que seria possível perceber isso olfativamente*", "speed": 60, "classes": ["Narrador"] }
           ],[
-          { "string": " ", "speed": 60, "classes": ["irritada"] },
-          { "string": "Claudia, mosh pit do slipknot agora é o incenso de quinta, você não viu as alterações que eu te mandei por email?", "speed": 60 }
+          { "string": "*A porta do escritório abre escancaradamente*", "speed": 60, "classes": ["Narrador"] },
+          { "string": " ", "speed": 60, "classes": ["irritada"] }
+          ],[
+          { "string": "Claudia! Mosh pit do slipknot agora é o incenso de quinta, você não viu as alterações que eu te mandei por email?", "speed": 60 }
           ],[
           { "string": " ", "speed": 60, "classes": ["Recepcionista"] },
-          { "string": "Senhorita katarita! peço perdão, não acontecerá novamente, já irei providenciar o incenso diário correto. ah, aliás, essa pessoa veio te procurar, ela recusou o chá sueco, eu te avisei que capim-limão ornava melhor.", "speed": 60 }
+          { "string": "Senhorita Katarita! Peço perdão, não acontecerá novamente, já irei providenciar o incenso diário correto. Ah, aliás, essa pessoa veio te procurar, ela recusou o chá sueco. Eu te avisei que capim-limão ornava melhor.", "speed": 60 }
           ],[
           { "string": " ", "speed": 60, "classes": ["feliz"] },
-          { "string": "Ah! você faz parte do movimento, o gatovaldo me disse que apareceria.", "speed": 60 },
-          { "string": "Claúdia, sempre que algum esquisito assim aparecer por aqui pode liberar direto para a minha sala", "speed": 60 },
-          { "string": "Faz parte de uma nova terapia que estou experimentando", "speed": 60 }
+          { "string": "Ah! Você faz parte do movimento, o Gatovaldo me disse que apareceria.", "speed": 60 },
+          { "string": "Claúdia, sempre que algum esquisito assim aparecer por aqui pode liberar direto para a minha sala,", "speed": 60 },
+          { "string": "faz parte de uma nova terapia que estou experimentando", "speed": 60 }
           ],[
           { "string": " ", "speed": 60, "classes": ["default"] },
           { "string": "Me acompanhe, meu querido, temos trabalho a fazer.", "speed": 60 }
           ],[
-          { "string": "*Você acompanha katarina até o seu escritório, ele é recheado de esculturas bizarras e pinturas que remetem ao caos e à destruição, tudo em tons de branco e rosa*", "speed": 60, "classes": ["Narrador"] }
+          { "string": "*Você acompanha Katarina até o seu escritório, ele é recheado de esculturas bizarras e pinturas que remetem ao caos e à destruição, tudo em tons de branco e rosa*", "speed": 60, "classes": ["Narrador"] }
           ],[
             { "string": " ", "speed": 60, "classes": ["smirk"] },
-          { "string": "Você parece espantado, gostou do meu cantinho? descobri quem era o bansky e tranquei ele aqui com baldes de tinta durante 3 dias", "speed": 60 },
+          { "string": "Você parece espantado, gostou do meu cantinho? Descobri quem era o Bansky e tranquei ele aqui com baldes de tinta durante 3 dias.", "speed": 60 }
+          ],[
           { "string": "Na verdade, 3 dias para cada vez que eu abrisse a porta e não gostasse do que estava vendo, ele acabou ficando uns 2 meses trancado aqui, mas no fim o resultado foi espetacular!", "speed": 60 }  
           ],[
           { "string": " ", "speed": 60, "classes": ["default"] },
-          { "string": "Ele até deu uma sumida da ruas, acho que deve ter ido procurar terapia, mas sinceramente, não entendo o porquê, minha sala tem ar condicionado e eu sempre o alimentava com minhas refeições preferidas", "speed": 60 }
+          { "string": "Ele até deu uma sumida da ruas... Acho que deve ter ido procurar terapia, mas sinceramente, não entendo o porquê, minha sala tem ar condicionado e eu sempre o alimentava com minhas refeições preferidas", "speed": 60 }
           ],[
-          { "string": "*Você se lembra do chá de uma aberração gastronômica sendo mencionada anteriormente...*", "speed": 60, "classes": ["Narrador"] }
+          { "string": "*Você se lembra de uma aberração gastronômica sendo mencionada anteriormente...*", "speed": 60, "classes": ["Narrador"] }
           ],[
-          { "string": "*...coitado dele*", "speed": 60 }
+          { "string": "*...Coitado dele*", "speed": 60 }
           ],[
           { "string": " ", "speed": 60, "classes": ["feliz"] },
-          { "string": "Bem, vamos falar de negócios, sugeri ao seu chefe que a gente fosse explodir alguma coisa, mas ele achou melhor não, fiquei muito frustrada, vou ser franco contigo, entrei na revolução para explodir coisas!", "speed": 60 },
-          { "string": " ", "speed": 60, "classes": ["brava"] },
+          { "string": "Bem, vamos falar de negócios, sugeri ao seu chefe que a gente fosse explodir alguma coisa, mas ele achou melhor não. Fiquei muito frustrada, vou ser franca contigo, entrei na revolução para explodir coisas!", "speed": 60 },
+          { "string": " ", "speed": 60, "classes": ["brava"] }
+          ],[
           { "string": "Aquela ratazana imunda acha que pode simplesmente acabar com uma das minhas fontes de renda e ainda deixar milhares de gatinhos por ai com fome? fala sério! eu quero mais é explodir tudo mesmo", "speed": 60 }
           ],[
             { "string": " ", "speed": 60, "classes": ["smirk"] },
-          { "string": "Antes de sair, a gente precisa de conhecer um pouco, pra começar, qual é seu nome?", "speed": 60 }
+          { "string": "Antes de sair, a gente precisa se conhecer um pouco, pra começar, qual é seu nome?", "speed": 60 }
           ],[
           { "string": "*Você diz o seu nome, ela então começa a digitar e ler algumas coisas no computador dela*", "speed": 60, "classes": ["Narrador"] }
           ],[
           { "string": " ", "speed": 60, "classes": ["default"] },
-          { "string": "Huuum... certo, já te conheço, sua vez, me faz uma pergunta", "speed": 60 }
+          { "string": "Huuum... certo, já te conheço, sua vez, me faz uma pergunta.", "speed": 60 }
           ]]
       },
       "escolhas": {

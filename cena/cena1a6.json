@@ -1,7 +1,7 @@
 {
     "cena": {
         "id": 1,
-        "background":"deserto",
+        "background":"posto",
         "dialogos": {
           "numeroBaloes":5,
           "numeroEscolhas":4,
@@ -13,12 +13,13 @@
             { "string": "*Você torra a aranha*", "speed": 60 }
           ],[
             { "string": " ", "speed": 60, "classes": ["surpresa"] },
-            { "string": "O QUE CARALHOS VOCÊ ACABOU DE FAZER? EU FALEI O SEGUNDO BOLSO"},
+            { "string": "O QUE CARALHOS VOCÊ ACABOU DE FAZER? EU FALEI O SEGUNDO BOLSO."},
             { "string": " ", "speed": 60, "classes": ["triste"] },
             { "string": "Ah, espera, droga, acho que guardei meu lança chamas no lugar errado, que porra...", "speed": 60 }
           ],[
             { "string": "Enfim, bora entrar nessa loja conveniente", "speed": 60 }
           ],[  
+            { "string": " ", "speed": 60, "classes": ["loja"] },
             { "string": "*Vocês entram na loja, parece ter algumas coisas para explorar*", "speed": 60, "classes": ["Narrador"] }           
           ]]
         },

@@ -32,6 +32,7 @@
         { "string": "Mas eu gosto de vocês, e confio em vocês.", "speed": 80},
         { "string": "Agora, se me permitem, preciso me esconder dentro de algum sofá.", "speed": 80}  
       ],[
+        { "string": " ", "speed": 80, "classes": ["vazio"] },
         { "string": "*Ele vira as costas e sai da sala, vocês dois se encaram confusos e se perguntam: \"Que diabos de ditado foi esse?\"*", "speed": 80, "classes":["Narrador"]}
       ],[
         { "string": "Jogador, para onde deseja ir agora?", "speed": 80, "classes":["Narrador"]}

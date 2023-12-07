@@ -1,0 +1,63 @@
+{
+    "cena": {
+        "id": 1,
+        "background":"atelie",
+        "dialogos": {
+          "numeroBaloes":7,
+          "numeroEscolhas":2,
+          "personagem": "Alessandra",
+          "texto": [[
+            { "string": " ", "speed": 60, "classes": ["feliz"] },
+            { "string": "Sim! no restaurante de luxo com a reserva mais disputada da cidade, você não tem noção de quantos celulares ligando ao mesmo tempo eu precisei para conseguir isso!", "speed": 80 }
+           ],[
+            { "string": " ", "speed": 60, "classes": ["default"] },
+            { "string": "Bom! agora vamos!", "speed": 60 } 
+          ],[
+            { "string": "*Vocês entram na limousine, ela leva vocês até um bairro de alta classe, e para em frente a um estabelecimento que se parece com um palácio*", "speed": 60, "classes": ["Narrador"] }
+          ],[
+            { "string": " ", "speed": 60, "classes": ["feliz"] },
+            { "string": "Chegamos! bem vindo ao Ardórsia", "speed": 60 }
+          ],[
+            { "string": " ", "speed": 60,"classes": ["restaurante"]  },
+            { "string": "*Ao entrar no restaurante, vocês são direcionados a uma mesa um pouco afastada, há uma mulher loira se apresentando em um pequeno palco*", "speed": 60, "classes": ["Narrador"] } 
+          ],[
+            { "string": " ", "speed": 60,"classes": ["restaurante"]  },
+            { "string": " ", "speed": 60, "classes": ["brava"] },
+            { "string": "Droga, pensava que a taylor swift seria amanhã, nosso amigo traficante escolheu um péssimo dia para o encontro", "speed": 60 } 
+          ],[
+            { "string": " ", "speed": 60,"classes": ["restaurante"]  },
+            { "string": "O gatinho te passou o briefing da missão? A gente está aqui para trocar esse diamante do jared leto em uma tecnologia importada extremamente letal, basicamente ela é capaz de transformar qualquer coisa em tofu, e não sei se você sabe, mas ratos odeiam tofu, não é queijo de verdade.", "speed": 60 }   
+            ]]
+        },
+        "escolhas": {
+          "escolha1": {
+            "texto": [
+              { "string": "Jared Leto?" }
+            ],
+            "trust": "0",
+            "paraCena": "2a3"
+          },
+          "escolha2": {
+            "texto": [
+              { "string": "Taylor Swift?" }
+            ],
+            "trust": "0",
+            "paraCena": "2b3"
+          },
+          "escolha3": {
+               "texto": [
+              { "string": "Q?" }
+            ],
+            "trust": "-1",
+            "paraCena": "-"
+          },
+          "escolha4": {
+               "texto": [
+              { "string": "..." }
+            ],
+            "trust": "-1",
+            "paraCena": "-"
+          }
+        }
+      }
+    }

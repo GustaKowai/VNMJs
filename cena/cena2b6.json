@@ -1,0 +1,45 @@
+{
+    "cena": {
+        "id": 1,
+        "background":"restaurante",
+        "dialogos": {
+          "numeroBaloes":1,
+          "numeroEscolhas":4,
+          "personagem": "Alessandra",
+          "texto": [[
+            { "string": " ", "speed": 60, "classes": ["feliz"] },
+            { "string": "Haha, eu ganhei então, né? agora você tem que me contar uma verdade sobre você", "speed": 60 } 
+            ]]
+        },
+        "escolhas": {
+          "escolha1": {
+            "texto": [
+              { "string": "Eu tenho medo de tubarões" }
+            ],
+            "trust": "0",
+            "paraCena": "2a7"
+          },
+          "escolha2": {
+            "texto": [
+              { "string": "Eu já quebrei meus dois braços e as minhas duas pernas" }
+            ],
+            "trust": "0",
+            "paraCena": "2b7"
+          },
+          "escolha3": {
+               "texto": [
+              { "string": "Estou com o aluguel atrasado" }
+            ],
+            "trust": "0",
+            "paraCena": "2c7"
+          },
+          "escolha4": {
+               "texto": [
+              { "string": "Secretamente gosto de filmes do adam sandler" }
+            ],
+            "trust": "0",
+            "paraCena": "2d7"
+          }
+        }
+      }
+    }

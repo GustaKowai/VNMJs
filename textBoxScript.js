@@ -144,8 +144,26 @@ function textToBox(cena, balao) {
     activeMood = "img/personagens/" + activeChar + "/" + mood + ".gif"
     document.getElementById("activeChar").src = activeMood;
   }
+  //muda o cenario
+   function changeBackground(cenario) {
+    var activeCenario = "0";
+    var backgroundUrl2 = "url('img/background/" + cenario + ".jpg')"
+    document.body.style.backgroundImage = backgroundUrl2;
+  }
+  
+  //muda o jogador ativo
   function changePlayer(player) {
     if (player == "orange" || player == "blue") {
+      container.classList.remove("player-orange");
+      escolha1.classList.remove("player-orange");
+      escolha2.classList.remove("player-orange");
+      escolha3.classList.remove("player-orange");
+      escolha4.classList.remove("player-orange");
+      container.classList.remove("player-blue");
+      escolha1.classList.remove("player-blue");
+      escolha2.classList.remove("player-blue");
+      escolha3.classList.remove("player-blue");
+      escolha4.classList.remove("player-blue");
       container.classList.add("player-" + player);
       escolha1.classList.add("player-" + player);
       escolha2.classList.add("player-" + player);
@@ -173,7 +191,8 @@ function textToBox(cena, balao) {
     next.classes.forEach((c) => {
       next.span.classList.add(c);
     });
-    var delay = next.isSpace ? 0 : next.delayAfter - 20;
+    var delay = next.isSpace ? 0 : next.delayAfter;
+    delay = delay/10;
     if (list.length > 0) {
       setTimeout(function () {
         revealOneCharacter(list, acabouBalao);
@@ -183,20 +202,34 @@ function textToBox(cena, balao) {
       console.log(acabouBalao); document.getElementById('nextText').disabled = false;
       if (acabouBalao) {
         //revela as escolhas
+        document.getElementById('nextText').disabled = true;
         escolha1.disabled = false;
         if (numeroEscolhas > 1) { escolha2.disabled = false; }
         if (numeroEscolhas > 2) { escolha3.disabled = false; }
         if (numeroEscolhas > 3) { escolha4.disabled = false; }
       }
     }
-
-    //checa a mudança de humor:
+    
     let spanClassList = next.span.classList;
+    
+    //checa mudanças da hud e cenario
+    let trocaPlayer = spanClassList.contains("trocaPlayer")
+    let isOrange = spanClassList.contains("isOrange")
+    let isBlue = spanClassList.contains("isBlue")
+    let isDeserto = spanClassList.contains("deserto")
+    let isCaixaDagua = spanClassList.contains("caixadagua")
+    let isLoja = spanClassList.contains("loja"); 
+    let isPosto = spanClassList.contains("posto");
+    let isQuartel = spanClassList.contains("quartel");
+    let isRecepcao = spanClassList.contains("recepcao");
+    let isRestaurante = spanClassList.contains("restaurante");
+    let isSala = spanClassList.contains("sala");
+    //checa a mudança de humor:
     let isMad = spanClassList.contains("brava");
+    let isSurpresa = spanClassList.contains("surpresa");
     let isHappy = spanClassList.contains("feliz");
     let isNormal = spanClassList.contains("default");
     let isSerio = spanClassList.contains("serio");
-    let isSurpresa = spanClassList.contains("serio");
     let isTriste = spanClassList.contains("triste");
     let isIrritada = spanClassList.contains("irritada");
     let isMeh = spanClassList.contains("meh");
@@ -205,9 +238,12 @@ function textToBox(cena, balao) {
     let isWithKat = spanClassList.contains("katarina");
     let isWithAle = spanClassList.contains("alessandra");
     let isRecepcionista = spanClassList.contains("Recepcionista");
-    let trocaPlayer = spanClassList.contains("trocaPlayer")
-    let isOrange = spanClassList.contains("isOrange")
-    let isBlue = spanClassList.contains("isBlue")
+    let isTraficante = spanClassList.contains("traficante");
+    let isVazio = spanClassList.contains("vazio");
+    
+    
+    //chama as funções
+    //sprites dos personagens:
     if (isHappy) {
       changeSpriteChar("feliz");
     }
@@ -247,6 +283,14 @@ function textToBox(cena, balao) {
     if (isRecepcionista) {
       changeSpriteChar("Recepcionista")
     }
+    if (isVazio) {
+      changeSpriteChar("vazio")
+      console.log("ta vazio")
+    }
+    if (isTraficante) {
+      changeSpriteChar("traficante")
+    }
+    //Mudanças na HUD por jogador:
     if (trocaPlayer) {
       changePlayer("change")
     }
@@ -255,6 +299,31 @@ function textToBox(cena, balao) {
     }
     if (isOrange) {
       changePlayer("orange")
+    }
+    //mudanças de cenario
+    if (isDeserto) {
+        changeBackground("deserto")
+    }
+    if (isCaixaDagua){
+       changeBackground("caixadagua")
+    }
+    if (isSala){
+       changeBackground("sala")
+    }
+    if (isLoja){
+       changeBackground("loja")
+    }
+    if (isPosto){
+       changeBackground("posto")
+    }
+    if (isQuartel){
+       changeBackground("quartel")
+    }
+    if (isRecepcao){
+       changeBackground("recepcao")
+    }
+    if (isRestaurante){
+       changeBackground("restaurante")
     }
   }
 

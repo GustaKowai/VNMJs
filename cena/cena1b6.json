@@ -1,7 +1,7 @@
 {
     "cena": {
         "id": 1,
-        "background":"deserto",
+        "background":"posto",
         "dialogos": {
           "numeroBaloes":4,
           "numeroEscolhas":4,

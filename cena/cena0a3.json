@@ -11,7 +11,7 @@
         { "string": "Vocês não acreditam no meu potencial, né ?", "speed": 40, "classes":["maior","red"] },
         { "string": "Só porque eu sou um gatinho fofinho?", "speed": 80},
         { "string": " ", "speed": 80, "classes": ["feliz"] },
-        { "string": "meu qi é maior do que o de todas as gerações de vocês dois juntas!", "speed": 80,"classes": ["red"] }
+        { "string": "Meu qi é maior do que o de todas as gerações de vocês dois juntas!", "speed": 80,"classes": ["red"] }
       ],[
         { "string": " ", "speed": 80, "classes": ["serio"] },
         { "string": "Vou provar que estão errados.", "speed": 80 }

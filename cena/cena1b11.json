@@ -1,9 +1,9 @@
 {
     "cena": {
         "id": 1,
-        "background":"deserto",
+        "background":"caixadagua",
         "dialogos": {
-          "numeroBaloes":15,
+          "numeroBaloes":14,
           "numeroEscolhas":2,
           "personagem": "Katarina",
           "texto": [[
@@ -13,7 +13,7 @@
             { "string": "*Nada acontece*", "speed": 60, "classes": ["Narrador"] }
           ],[
             { "string": " ", "speed": 60, "classes": ["feliz"] },
-            { "string": "Você é dos meus, infelizmente esse posto ai já tá desativado há um bom tempo", "speed": 60 },
+            { "string": "Você é dos meus, infelizmente esse posto ai já tá desativado há um bom tempo.", "speed": 60 },
             { "string": " ", "speed": 60, "classes": ["smirk"] },
             { "string": "Mas deria daora se ele explodisse", "speed": 60 }
           ],[

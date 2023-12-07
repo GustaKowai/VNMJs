@@ -1,5 +1,5 @@
 body{
-  background-image: url(img/background/bg1.jpg);
+  background-image: url(img/background/quartel.jpg);
   background-size: cover;
   background-repeat: repeat;
   background-position-y: center;
@@ -11,9 +11,9 @@ body{
   justify-content: center;
   padding: 0;
   position: relative;
-  border: solid;
+  /* border: solid;
   border-color: black;
-  border-width: 10px;
+  border-width: 10px; */
 }
 .characterScreen img{
   max-height: 49vw;
@@ -33,7 +33,7 @@ body{
   border-bottom: 4px solid #3d3d3d;
   border-radius: 6px 0% 0% 0%;
   font-size: 2vw;
-  opacity: 100;
+  opacity: 90%;
 }
 .escolha:disabled{
   opacity: 0;
@@ -63,7 +63,11 @@ body{
 }
 .player-orange{
   border-bottom: 1vw solid orange;
-  background-color: rgb(233, 189, 148);
+  border-top:2px solid orange;
+}
+.player-blue{
+  border-bottom: 1vw solid blue;
+  border-top:2px solid blue;
 }
 .corner{
   position: absolute;
@@ -83,6 +87,12 @@ body{
 .text span.green{
   color: green;
 }
+.text span.orange{
+  color: orange;
+}
+.text span.blue{
+  color: blue;
+}
 .text span.red{
   color: red;
   font-style: bold;
@@ -91,7 +101,11 @@ body{
   font-size: smaller;
 }
 .text span.maior{
-  font-size:x-large;
+  font-size:2.5vw;
+}
+.Narrador{
+    font-style: italic;
+    color: #333333;
 }
 #nextText{
   position: absolute;
@@ -118,4 +132,11 @@ body{
 }
 #nextText:active{
   color: red;
+}
+#nextText:disabled{
+    background-color:#f9f9f988;
+    color:#f9f9f9;
+}
+#start:disabled{
+    opacity: 0.0;
 }

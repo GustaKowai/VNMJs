@@ -1,0 +1,49 @@
+{
+  "cena": {
+    "id": 0,
+    "background":"quartel",
+    "dialogos": {
+      "numeroBaloes":2,
+      "numeroEscolhas":1,
+      "personagem": "Gatovaldo",
+      "texto": [[
+        { "string": " ", "speed": 80, "classes": ["vazio"] },
+        { "string": "Você foi bem na sua missão", "speed": 80,"classes": ["Narrador"] }
+      ],[
+        { "string": " ", "speed": 80, "classes": ["trocaPlayer"] },
+        { "string": "Agora é a sua vez.", "speed": 80, "classes": ["Narrador"] },
+        { "string": "Boa sorte.", "speed": 80,"classes": ["Narrador"]}
+      ]]
+    },
+    "escolhas": {
+      "escolha1": {
+        "texto": [
+          { "string": "Para o escritório da Katarina" }
+        ],
+        "trust": "0",
+        "paraCena": "1"
+      },
+      "escolha2": {
+        "texto": [
+          { "string": "-!","classes": ["-"] }
+        ],
+        "trust": "0",
+        "paraCena": "="
+      },
+      "escolha3": {
+           "texto": [
+          { "string": "=" }
+        ],
+        "trust": "-1",
+        "paraCena": "-"
+      },
+      "escolha4": {
+           "texto": [
+          { "string": "-" }
+        ],
+        "trust": "-1",
+        "paraCena": "-"
+      }
+    }
+  }
+}

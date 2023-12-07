@@ -24,7 +24,7 @@
               { "string": "Continuar para a próxima missão" }
             ],
             "trust": "0",
-            "paraCena": "2"
+            "paraCena": "interludio1"
           },
           "escolha2": {
             "texto": [

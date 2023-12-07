@@ -8,9 +8,9 @@
       "personagem": "Katarina",
       "texto": [[
         { "string": " ", "speed": 60, "classes": ["feliz"] },
-        { "string": "Claro, eu tenho mais duas", "speed": 60 }
+        { "string": "Claro, eu tenho mais duas!", "speed": 60 }
       ],[
-        { "string": "*Você percebe que aquilo na realidade era água mesmo, e não entende o porquê de ela usar garrafas de vodka ao invés de garrafas térmicas, parece estar bem quente*", "speed": 60, "classes": ["Narrador"] }
+        { "string": "*Você percebe que aquilo na realidade era água, e não entende o porquê de ela usar garrafas de vodka ao invés de garrafas térmicas, parece estar bem quente*", "speed": 60, "classes": ["Narrador"] }
       ]]
     },
     "escolhas": {

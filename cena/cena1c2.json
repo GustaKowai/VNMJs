@@ -8,10 +8,10 @@
         "personagem": "Katarina",
         "texto": [[
           { "string": " ", "speed": 60, "classes": ["feliz"] },
-          { "string": "ah! a brunilde e a marlene, são para a proteção do escritório, uma é pra mim, e a outra para a cláudia, as duas ficam lá por que eu acharia muito estiloso se ocoresse uma invasão e no momento que eu saisse do escritório ela jogasse a minha arma para mim e eu a pegasse no ar com uma mão só enquanto preparo uma granada com a outra ", "speed": 60 }
+          { "string": "Ah! a brunilde e a marlene, são para a proteção do escritório, uma é pra mim, e a outra para a cláudia, as duas ficam lá por que eu acharia muito estiloso se ocoresse uma invasão e no momento que eu saisse do escritório ela jogasse a minha arma para mim e eu a pegasse no ar com uma mão só enquanto preparo uma granada com a outra ", "speed": 60 }
         ],[
           { "string": " ", "speed": 60, "classes": ["default"] },
-          { "string": "Acho, que já podemos ir, eu vou dirigindo!", "speed": 60 }
+          { "string": "Acho que já podemos ir, eu vou dirigindo!", "speed": 60 }
         ]]
       },
       "escolhas": {

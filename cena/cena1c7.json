@@ -1,17 +1,18 @@
 {
     "cena": {
         "id": 1,
-        "background":"deserto",
+        "background":"loja",
         "dialogos": {
-          "numeroBaloes":6,
+          "numeroBaloes":7,
           "numeroEscolhas":2,
           "personagem": "Katarina",
           "texto": [[
             { "string": " ", "speed": 60, "classes": ["default"] },
             { "string": "*Você procura por coisas no banheiro...*", "speed": 60, "classes": ["Narrador"] }
           ],[
-            { "string": "*Parece que alguém recentemente deu um uso a ele*", "speed": 60 },
-            { "string": "*Você se arrepende de sua escolha*", "speed": 60 },
+            { "string": "*Parece que alguém recentemente deu um uso a ele", "speed": 60 },
+            { "string": "Você se arrepende de sua escolha*", "speed": 60 }
+          ],[
             { "string": " ", "speed": 60, "classes": ["default"] },
             { "string": "Eai, algo que preste?", "speed": 60 }
           ],[
@@ -23,8 +24,8 @@
           ],[
             { "string": "*Ela te mostra uma revista, na capa, você vê uma garota usando rosa com o seu pai, o título é: sucesso entre os felinos! pai e filha revelam alguns dos segredos  dos petiscos mais cobiçados pelos gatunos*", "speed": 60, "classes": ["Narrador"] }
           ],[
-            { "string": "Eu até que gostava dele ", "speed": 60},
-            { "string": "Na realidade, eu gostava dele, mas era jovem demais para entender isso", "speed": 60 },
+            { "string": "Eu até que gostava dele.", "speed": 60},
+            { "string": "Na realidade, eu gostava dele, mas era jovem demais para entender isso.", "speed": 60 },
             { "string": "Eu perdi mais do que um braço naquele atentado", "speed": 60 }
             ]]
         },

@@ -3,7 +3,7 @@
     "id": 0,
     "background":"restaurante",
     "dialogos": {
-      "numeroBaloes":27,
+      "numeroBaloes":26,
       "numeroEscolhas":2,
       "personagem": "Alessandra",
       "texto": [[
@@ -71,9 +71,6 @@
       ],[
         { "string": " ", "speed": 60, "classes": ["default"] },
         { "string": "*por um momento, você se questiona por que tem um tofu na cadeira com vocês*", "speed": 60, "classes": ["Narrador"]}
-      ],[
-        { "string": " ", "speed": 60, "classes": ["vazio"] },
-        { "string": "*Ele sai do restaurante dando pulinhos*", "speed": 60, "classes": ["Narrador"] }
       ],[
         { "string": " ", "speed": 60, "classes": ["default"] },
         { "string": "Espera... Isso realmente aconteceu?", "speed": 60}

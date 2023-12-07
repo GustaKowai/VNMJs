@@ -1,7 +1,7 @@
 {
     "cena": {
         "id": 1,
-        "background":"deserto",
+        "background":"caixadagua",
         "dialogos": {
           "numeroBaloes":2,
           "numeroEscolhas":4,

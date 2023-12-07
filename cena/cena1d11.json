@@ -1,7 +1,7 @@
 {
   "cena": {
       "id": 1,
-      "background":"deserto",
+      "background":"caixadagua",
       "dialogos": {
         "numeroBaloes":13,
         "numeroEscolhas":2,
@@ -11,7 +11,7 @@
           { "string": "*Você simplesmente não atira*", "speed": 60, "classes": ["Narrador"] }
         ],[
           { "string": " ", "speed": 60, "classes": ["smirk"] },
-          { "string": "ahh, então você é um pacifistinha? tudo bem, nada contra, tenho até amigos que são...", "speed": 60 }
+          { "string": "Ahh, então você é um pacifistinha? tudo bem, nada contra, tenho até amigos que são...", "speed": 60 }
           ],[
             { "string": "*Um som de veículo começa a ser ouvido na distância*", "speed": 60, "classes": ["Narrador"] }
           ],[

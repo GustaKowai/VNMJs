@@ -1,0 +1,62 @@
+{
+    "cena": {
+        "id": 1,
+        "background":"atelie",
+        "dialogos": {
+          "numeroBaloes":9,
+          "numeroEscolhas":2,
+          "personagem": "Alessandra",
+          "texto": [[
+            { "string": "*Você sente algo estranho, como se estivesse sendo observado*", "speed": 60, "classes": ["Narrador"] }
+          ],[
+            { "string": "*Quando decide olhar para trás...*", "speed": 60, "classes": ["Narrador"] }
+          ],[
+            { "string": "Nunca diga 'tem algúem ai?', já assisti filmes de terror suficiente, trás má sorte", "speed": 80 }
+          ],[
+            { "string": " ", "speed": 60, "classes": ["feliz"] },
+            { "string": "To zoando! Eae cara! Estamos preparados para a missão? só aguardar aqui fora, o transporte jajá chega", "speed": 60 }
+          ],[
+            { "string": "Engraçado que você nem percebeu que eu estava escondida atrás da porta quando entrou, gosto de assustar as pessoas as vezes, é engraçado.", "speed": 60}
+          ],[
+            { "string": " ", "speed": 60, "classes": ["default"] },
+            { "string": "Sabe, as vezes tudo que a gente precisa é de um pouco de emoção, vivemos nossas vidas monótonas repetindo o mesmo ciclo dia após dia, é bom as vezes ter um motivo maior para se preocupar com a sua própria vida", "speed": 60 }
+          ],[
+            { "string": "Aposto que você se assustou de verdade, olha a minha cara de louca, to branca igual um vampiro, não saia desse lugar há anos, e quando saia era para comprar miojo ou energético de madrugada no mercadinho 24 horas, minha sorte é que a minha fama não chegou aqui nas periferias, ser reconhecida nunca foi um problema aqui, esse é o lugar perfeito", "speed": 60 }
+          ],[
+            { "string": "*Uma limousine estaciona em frente ao atelie, e por um momento você se questiona se está vestido adequadamente, Alessandra mexe no vestido dela em algo que você não consegue decifrar, e, de repente, partes do look que estavam escondidas se revelam e ela fica com uma aparencia mais ousada, amedrontadora e claro, estilosa, agora você tem certeza que não está vestido adequadamente para a ocasião*", "speed": 60, "classes": ["Narrador"] }
+          ],[
+            { "string": "Vamos! Parece que o giuseppe já chegou", "speed": 60 }  
+            ]]
+        },
+        "escolhas": {
+          "escolha1": {
+            "texto": [
+              { "string": "Você tem algo adequado para eu me vestir?" }
+            ],
+            "trust": "0",
+            "paraCena": "2a2"
+          },
+          "escolha2": {
+            "texto": [
+              { "string": "A gente não ia só se encontrar com um informante em um local público?" }
+            ],
+            "trust": "0",
+            "paraCena": "2b2"
+          },
+          "escolha3": {
+               "texto": [
+              { "string": "Q?" }
+            ],
+            "trust": "-1",
+            "paraCena": "-"
+          },
+          "escolha4": {
+               "texto": [
+              { "string": "..." }
+            ],
+            "trust": "-1",
+            "paraCena": "-"
+          }
+        }
+      }
+    }

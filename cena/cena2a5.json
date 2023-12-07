@@ -1,0 +1,44 @@
+{
+    "cena": {
+        "id": 1,
+        "background":"restaurante",
+        "dialogos": {
+          "numeroBaloes":1,
+          "numeroEscolhas":2,
+          "personagem": "Alessandra",
+          "texto": [[
+            { "string": "Verdade ou desafio? pelo amor, eu te desafio a ir até aquele garçom ali e falar que ele está servindo horrores", "speed": 60 }
+            ]]
+        },
+        "escolhas": {
+          "escolha1": {
+            "texto": [
+              { "string": "Aceitar" }
+            ],
+            "trust": "0",
+            "paraCena": "2a6"
+          },
+          "escolha2": {
+            "texto": [
+              { "string": "Recusar" }
+            ],
+            "trust": "0",
+            "paraCena": "2b6"
+          },
+          "escolha3": {
+               "texto": [
+              { "string": "-" }
+            ],
+            "trust": "0",
+            "paraCena": "-"
+          },
+          "escolha4": {
+               "texto": [
+              { "string": "..." }
+            ],
+            "trust": "-1",
+            "paraCena": "-"
+          }
+        }
+      }
+    }

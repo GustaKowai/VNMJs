@@ -2,9 +2,8 @@ var add;
 async function readJson(path){
     fetch(path)
     .then((response) => response.json())
-    //.then((json) => console.log(json.cena.dialogos.texto))
+    .then((json) => json.cena.dialogos.texto)
+    .then((value)=> console.log(value))
 }
 
-readJson('cena1.json').then(
-    function(value){console.log(value);}
-);
+readJson('cena1.json')

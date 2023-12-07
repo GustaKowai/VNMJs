@@ -1,7 +1,7 @@
 {
     "cena": {
         "id": 1,
-        "background":"deserto",
+        "background":"caixadagua",
         "dialogos": {
           "numeroBaloes":13,
           "numeroEscolhas":2,
@@ -11,17 +11,17 @@
             { "string": "*Você atira em uma carcaça de coiote na distância*", "speed": 60, "classes": ["Narrador"] }
           ],[
             { "string": " ", "speed": 60, "classes": ["feliz"] },
-            { "string": "Woow, não estava prestando atenção, você matou aquele bicho?, muito foda!", "speed": 60 }
+            { "string": "Woow, não estava prestando atenção, você matou aquele bicho? Muito foda!", "speed": 60 }
           ],[
             { "string": "*Um som de veículo começa a ser ouvido na distância*", "speed": 60, "classes": ["Narrador"] }
           ],[
             { "string": " ", "speed": 60, "classes": ["surpresa"] },
-            { "string": "Espera! acho que é o nosso caminhão se aproximando", "speed": 60 }
+            { "string": "Espera! Acho que é o nosso caminhão se aproximando", "speed": 60 }
           ],[
             { "string": "*Você observa um caminhão de sorvete se aproximando*", "speed": 60, "classes": ["Narrador"] }
           ],[
             { "string": " ", "speed": 60, "classes": ["feliz"] },
-            { "string": "É isso mesmo! bora descer", "speed": 60 }
+            { "string": "É isso mesmo! Bora descer", "speed": 60 }
           ],[
             { "string": "*Vocês descem a torre, a escada é bem precária, você tem a sensação de quase morte ao pisar em um degrau e ele quebrar*", "speed": 60, "classes": ["Narrador"] }
           ],[

@@ -8,7 +8,7 @@
       "personagem": "Gatovaldo",
       "texto": [[
         { "string": " ", "speed": 60, "classes": ["humor","trocaPlayer"] },
-        { "string": "Sim! é por isso que estamos aqui, e conto com vocês para tirar aquele bostinha do poder", "speed": 60 }
+        { "string": "Sim! É por isso que estamos aqui, e conto com vocês para tirar aquele bostinha do poder", "speed": 60 }
         ],[
         { "string": " ", "speed": 60, "classes": ["humor"] },
         { "string": "-", "speed": 60 }

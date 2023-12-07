@@ -1,51 +1,50 @@
 {
-  "cena": {
-    "id": 0,
-    "background":"restaurante",
-    "dialogos": {
-      "numeroBaloes":3,
-      "numeroEscolhas":4,
-      "personagem": "Alessandra",
-      "texto": [[
-        { "string": " ", "speed": 60, "classes": ["default"] },
-        { "string": "Muitas das minhas inimigas eram fãs dela, isso é algo para se prestar atenção em uma pessoa, tome cuidado.", "speed": 60 }
-        ],[
-        { "string": " ", "speed": 60, "classes": ["humor"] },
-        { "string": "Ela parece inflexível, a musica nem era tão ruim assim", "speed": 60, "classes": ["Narrador"] }
-        ],[
-        { "string": " ", "speed": 60, "classes": ["humor"] },
-        { "string": "Aliás, será que eu deixei muito claro meu gosto músical? Odeio fazer isso, detesto ser previsível, me fala algo que você acha que eu gosto", "speed": 60}
-      ]]
-    },
-    "escolhas": {
-      "escolha1": {
-        "texto": [
-          { "string": "A day to remember" }
-        ],
-        "trust": "0",
-        "paraCena": "-"
-      },
-      "escolha2": {
-        "texto": [
-          { "string": "Ivete Sangalo"}
-        ],
-        "trust": "0",
-        "paraCena": "="
-      },
-      "escolha3": {
-           "texto": [
-          { "string": "Barões da Pisadinha" }
-        ],
-        "trust": "-1",
-        "paraCena": "-"
-      },
-      "escolha4": {
-           "texto": [
-          { "string": "One Direction" }
-        ],
-        "trust": "-1",
-        "paraCena": "-"
+    "cena": {
+        "id": 1,
+        "background":"restaurante",
+        "dialogos": {
+          "numeroBaloes":3,
+          "numeroEscolhas":4,
+          "personagem": "Alessandra",
+          "texto": [[
+            { "string": " ", "speed": 60, "classes": ["brava"] },
+            {"string": "Muitas das minhas inimigas eram fãs dela, isso é algo para se prestar atenção em uma pessoa, tome cuidado.", "speed": 60 }
+          ],[
+            { "string": "*Ela parece inflexível, ela nem era tão ruim assim", "speed": 60, "classe": ["Narrador"] }
+          ],[
+            { "string": " ", "speed": 60, "classes": ["default"] },
+            { "string": "Aliás, será que eu deixei muito claro meu gosto músical? odeio fazer isso, detesto ser previsível, me fala algo que você acha que eu gosto", "speed": 60 }  
+            ]]
+        },
+        "escolhas": {
+          "escolha1": {
+            "texto": [
+                { "string": "My Chemical Romance" }
+            ],
+            "trust": "0",
+            "paraCena": "2a9"
+          },
+          "escolha2": {
+            "texto": [
+              { "string": "Ivete sangalo" }
+            ],
+            "trust": "0",
+            "paraCena": "2b9"
+          },
+          "escolha3": {
+               "texto": [
+              { "string": "Barões da pisadinha" }
+            ],
+            "trust": "0",
+            "paraCena": "2c9"
+          },
+          "escolha4": {
+               "texto": [
+              { "string": "One direction" }
+            ],
+            "trust": "0",
+            "paraCena": "2d9"
+          }
+        }
       }
     }
-  }
-}

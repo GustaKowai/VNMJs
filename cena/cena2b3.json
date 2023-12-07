@@ -1,0 +1,50 @@
+{
+    "cena": {
+        "id": 1,
+        "background":"restaurante",
+        "dialogos": {
+          "numeroBaloes":3,
+          "numeroEscolhas":3,
+          "personagem": "Alessandra",
+          "texto": [[
+            { "string": " ", "speed": 60, "classes": ["surpresa"] },
+            { "string": "Hoje é sexta, pensei que colocariam alguém de mais prestígio tipo o calcinha preta.", "speed": 60 }
+          ],[
+            { "string": "*Você prefere não questionar, isso já tem sido uma noite bem estranha*", "speed": 60, "classes": ["Narrador"] }
+          ],[
+            { "string": " ", "speed": 60, "classes": ["default"] },
+            { "string": "O quão desrespeitoso seria pedir a comida antes do nosso querido colega chegar? Estou faminta.", "speed": 60 }
+            ]]
+        },
+        "escolhas": {
+          "escolha1": {
+            "texto": [
+              { "string": "Ele provavelmente não está nem ai para a comida" }
+            ],
+            "trust": "0",
+            "paraCena": "2a4"
+          },
+          "escolha2": {
+            "texto": [
+              { "string": "Seria extremamente desrespeitoso e você com certeza acabaria com o nosso plano inteirinho por conta dessa sua atitude egoísta" }
+            ],
+            "trust": "0",
+            "paraCena": "2b4"
+          },
+          "escolha3": {
+               "texto": [
+              { "string": "*Chamar o garçom* Eu não me importo." }
+            ],
+            "trust": "0",
+            "paraCena": "2c4"
+          },
+          "escolha4": {
+               "texto": [
+              { "string": "..." }
+            ],
+            "trust": "-1",
+            "paraCena": "-"
+          }
+        }
+      }
+    }

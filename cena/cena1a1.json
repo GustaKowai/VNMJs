@@ -3,37 +3,37 @@
       "id": 1,
       "background":"recepcao",
       "dialogos": {
-        "numeroBaloes":21,
+        "numeroBaloes":20,
         "numeroEscolhas":4,
         "personagem": "Katarina",
         "texto": [[
           { "string": " ", "speed": 60, "classes": ["Recepcionista"] },
-          { "string": "KATARINA", "speed": 60 }
+          { "string": "KATARINA!", "speed": 60 }
           ],[
-          { "string": "*A recepcionista grita, mas não obtem nenhuma resposta*", "speed": 60, "classe": ["Narrador"] }
+          { "string": "*A recepcionista grita, mas não obtem nenhuma resposta*", "speed": 60, "classes": ["Narrador"] }
           ],[
           { "string": "Peço perdão, só um instante, ela provavelmente deve estar em uma reunião importante", "speed": 60 }
           ],[
-          { "string": "*Ela disca um número, mas aparentemente não obtem resposta*", "speed": 60, "classe": ["Narrador"] }
+          { "string": "*Ela disca um número, mas aparentemente não obtem resposta*", "speed": 60, "classes": ["Narrador"] }
           ],[
           { "string": "Certo...", "speed": 60 }
           ],[
-          { "string": "*A recepcionista se levanta de sua cadeira e anda em direção a um grande botão vermelho escrito 'ATAQUE NUCLEAR'*", "speed": 60, "classe": ["Narrador"] },
-          { "string": "*As luzes começam a piscar em vermelho e um som de alarme começa a tocar*", "speed": 60, "classe": ["Narrador"] },
+          { "string": "*A recepcionista se levanta de sua cadeira e anda em direção a um grande botão vermelho escrito 'ATAQUE NUCLEAR'.", "speed": 60, "classes": ["Narrador"] },
+          { "string": "As luzes começam a piscar em vermelho e um som de alarme começa a tocar*.", "speed": 60, "classes": ["Narrador"] },
           { "string": "Ela deve aparecer a qualquer instante!", "speed": 60 }
           ],[
-          { "string": "*A porta do escritório abre escancaradamente*", "speed": 60, "classe": ["Narrador"] }
+          { "string": "*A porta do escritório abre escancaradamente*", "speed": 60, "classes": ["Narrador"] },
+          { "string": " ", "speed": 60, "classes": ["brava"] }
           ],[
-          { "string": " ", "speed": 60, "classes": ["brava"] },
           { "string": "PORRA ME DIZ QUE É O MEU X-MORTADELA-MALIGNO CLAUDIA, NÃO AGUENTO MAIS ESPERAR", "speed": 60 }
           ],[
           { "string": " ", "speed": 60, "classes": ["Recepcionista"] },
-          { "string": "Senhorita katarina! essa pessoa veio procurar por ti, ela é de poucas palavras, parece ser algo importante.", "speed": 60 }
+          { "string": "Senhorita Katarina! Essa pessoa veio procurar por ti, ela é de poucas palavras, parece ser algo importante.", "speed": 60 }
           ],[
           { "string": " ", "speed": 60, "classes": ["feliz"] },
           { "string": "Ah! você faz parte do movimento, o gatovaldo me disse que apareceria.", "speed": 60 },
-          { "string": "claúdia, sempre que algum esquisito assim aparecer por aqui pode liberar direto para a minha sala", "speed": 60 },
-          { "string": "Faz parte de uma nova terapia que estou experimentando", "speed": 60 }
+          { "string": "Claúdia, sempre que algum esquisito assim aparecer por aqui pode liberar direto para a minha sala,", "speed": 60 },
+          { "string": "faz parte de uma nova terapia que estou experimentando", "speed": 60 }
           ],[
           { "string": " ", "speed": 60, "classes": ["default"] },
           { "string": "Me acompanhe, meu querido, temos trabalho a fazer.", "speed": 60 }
@@ -41,23 +41,23 @@
           { "string": "*Você acompanha katarina até o seu escritório, ele é recheado de esculturas bizarras e pinturas que remetem ao caos e à destruição, tudo em tons de branco e rosa*", "speed": 60, "classe": ["Narrador"] }
           ],[
           { "string": " ", "speed": 60, "classes": ["smirk"] },
-          { "string": "Você parece espantado, gostou do meu cantinho? descobri quem era o bansky e tranquei ele aqui com baldes de tinta durante 3 dias", "speed": 60 },
+          { "string": "Você parece espantado, gostou do meu cantinho? descobri quem era o bansky e tranquei ele aqui com baldes de tinta durante 3 dias.", "speed": 60 },
           { "string": "Na verdade, 3 dias para cada vez que eu abrisse a porta e não gostasse do que estava vendo, ele acabou ficando uns 2 meses trancado aqui, mas no fim o resultado foi espetacular!", "speed": 60 }  
           ],[
           { "string": " ", "speed": 60, "classes": ["default"] },
           { "string": "Ele até deu uma sumida da ruas, acho que deve ter ido procurar terapia, mas sinceramente, não entendo o porquê, minha sala tem ar condicionado e eu sempre o alimentava com minhas refeições preferidas", "speed": 60 }
           ],[
-          { "string": "*Você se lembra do chá de uma aberração gastronômica sendo mencionada anteriormente...*", "speed": 60, "classe": ["Narrador"] }
+          { "string": "*Você se lembra de uma aberração gastronômica sendo mencionada anteriormente...*", "speed": 60, "classe": ["Narrador"] }
           ],[
           { "string": "*...coitado dele*", "speed": 60 }
           ],[
           { "string": " ", "speed": 60, "classes": ["feliz"] },
-          { "string": "Bem, vamos falar de negócios, sugeri ao seu chefe que a gente fosse explodir alguma coisa, mas ele achou melhor não, fiquei muito frustrada, vou ser franco contigo, entrei na revolução para explodir coisas!", "speed": 60 },
+          { "string": "Bem, vamos falar de negócios, sugeri ao seu chefe que a gente fosse explodir alguma coisa, mas ele achou melhor não, fiquei muito frustrada, vou ser franca contigo, entrei na revolução para explodir coisas!", "speed": 60 },
           { "string": " ", "speed": 60, "classes": ["brava"] },
           { "string": "Aquela ratazana imunda acha que pode simplesmente acabar com uma das minhas fontes de renda e ainda deixar milhares de gatinhos por ai com fome? fala sério! eu quero mais é explodir tudo mesmo", "speed": 60 }
           ],[
           { "string": " ", "speed": 60, "classes": ["smirk"] },
-          { "string": "Antes de sair, a gente precisa de conhecer um pouco, pra começar, qual é seu nome?", "speed": 60 }
+          { "string": "Antes de sair, a gente precisa se conhecer um pouco, pra começar, qual é seu nome?", "speed": 60 }
           ],[
           { "string": "*Você diz o seu nome, ela então começa a digitar e ler algumas coisas no computador dela*", "speed": 60, "classe": ["Narrador"] }
           ],[

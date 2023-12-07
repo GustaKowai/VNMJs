@@ -8,7 +8,7 @@
       "personagem": "Gatovaldo",
       "texto": [[
         { "string": " ", "speed": 80, "classes": ["serio","trocaPlayer"] },
-        { "string": "nao queiram saber.", "speed": 160 }
+        { "string": "Não queiram saber.", "speed": 160 }
       ],[
         { "string": " ", "speed": 80, "classes": ["humor"] },
         { "string": "-", "speed": 80 }

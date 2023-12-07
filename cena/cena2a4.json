@@ -1,0 +1,55 @@
+{
+    "cena": {
+        "id": 1,
+        "background":"restaurante",
+        "dialogos": {
+          "numeroBaloes":5,
+          "numeroEscolhas":2,
+          "personagem": "Alessandra",
+          "texto": [[
+            { "string": "*Ela chama o garçom*", "speed": 60, "classes": ["Narrador"] },
+            { "string": "Pois não?", "speed": 60, "classes": ["Garcom"] }
+          ],[
+            {"string": "Gostaria de um frango picatta com uma salada ao lado, para ele pode ser a mesma coisa", "speed": 60 }
+          ],[
+            { "string": " ", "speed": 60, "classes": ["brava"] },
+            { "string": "Que tédio, lugares como esse me fazem lembrar do motivo de eu ter sumido dos holofotes, cheio de pessoas mesquinhas, que se acham superiores por simplesmente terem conseguido uma reserva.", "speed": 60 }
+          ],[
+            { "string": "Eu vou ser bem sincera, a comida daqui nem é a melhor da cidade, e não estou dizendo que prefiro fast food ou um prato feito, existem lugares chiques que preparam pratos muito melhores e que tem um atendimento incomparavel ao daqui, mas por algum motivo essa bodega aqui recebe todo o holofote, se não tivesse sido a escolha pessoal do nosso colega eu teria outras 20 melhores opções de restaurantes para escolher", "speed": 60 }  
+          ],[
+            { "string": " ", "speed": 60, "classes": ["default"] },
+            { "string": "Mas, já que estamos aqui, aguardemos...", "speed": 60 }   
+            ]]
+        },
+        "escolhas": {
+          "escolha1": {
+            "texto": [
+              { "string": "Vamos jogar verdade ou desafio enquanto isso" }
+            ],
+            "trust": "0",
+            "paraCena": "2a5"
+          },
+          "escolha2": {
+            "texto": [
+              { "string": "Vamos pedir uma música" }
+            ],
+            "trust": "0",
+            "paraCena": "2b5"
+          },
+          "escolha3": {
+               "texto": [
+              { "string": "-" }
+            ],
+            "trust": "0",
+            "paraCena": "-"
+          },
+          "escolha4": {
+               "texto": [
+              { "string": "..." }
+            ],
+            "trust": "-1",
+            "paraCena": "-"
+          }
+        }
+      }
+    }

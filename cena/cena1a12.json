@@ -18,7 +18,7 @@
           ],[
             { "string": "*Ele chega a uma distância consideravelmente perto de ti, ele se aproxima, e de repente...*", "speed": 60 , "classes": ["Narrador"]}            
           ],[
-            { "string": "*ele para*", "speed": 60 , "classes": ["Narrador"]}            
+            { "string": "*Ele para*", "speed": 60 , "classes": ["Narrador"]}            
           ],[
             { "string": "*Um senhorzinho muito fofo sai da cabine*", "speed": 60 , "classes": ["Narrador"] }          
           ],[

@@ -10,7 +10,7 @@
           { "string": " ", "speed": 60, "classes": ["default"] },
           { "string": "Na realidade não, só pesquisei o significado do seu nome, isso já basta pra mim.", "speed": 60 }
         ],[
-          { "string": "Acho, que já podemos ir, eu vou dirigindo!", "speed": 60 }
+          { "string": "Acho que já podemos ir, eu vou dirigindo!", "speed": 60 }
         ]]
       },
       "escolhas": {

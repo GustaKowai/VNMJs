@@ -1,7 +1,7 @@
 {
     "cena": {
         "id": 1,
-        "background":"deserto",
+        "background":"caixadagua",
         "dialogos": {
           "numeroBaloes":15,
           "numeroEscolhas":2,
@@ -41,7 +41,7 @@
             { "string": "Ok, vejo na sua cara que você não sabe o que fazer, vai lá na estrada, deita, e joga bastante ketchup na sua perna e perto dela, você vai chorar e gritar de dor, pedindo por ajuda", "speed": 60 }
           ],[
             { "string": " ", "speed": 60, "classes": ["smirk"] },
-            { "string": "Se ele acelerar e passar por cima de você, teremos certeza que eles trabalham para o governo e estão preparados para lidar com emboscadas, se ele parar para te ajudar, a gente vai saber que ele provavelmente é só um motorista inocente, você irá dizer que é uma pegadinha, e tudo ficará certo, pode ser?", "speed": 60 }
+            { "string": "Se ele acelerar e passar por cima de você, teremos certeza que eles trabalham para o governo e estão preparados para lidar com emboscadas, se ele parar para te ajudar, a gente vai saber que ele provavelmente é só um motorista inocente, você irá dizer que é uma pegadinha, e tudo ficará bem, pode ser?", "speed": 60 }
             ]]
         },
         "escolhas": {

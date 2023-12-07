@@ -1,10 +1,10 @@
 {
     "cena": {
         "id": 1,
-        "background":"deserto",
+        "background":"posto",
         "dialogos": {
           "numeroBaloes":4,
-          "numeroEscolhas":2,
+          "numeroEscolhas":4,
           "personagem": "Katarina",
           "texto": [[
             { "string": " ", "speed": 60, "classes": ["confusa"] },
