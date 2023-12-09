@@ -45,7 +45,7 @@ Planos futuros:
 
 Responsáveis:
 
-Arte:
+Arte: Ayla Yorinori Nishino
 
 Roteiro:
 
