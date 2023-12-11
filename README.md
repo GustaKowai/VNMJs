@@ -47,6 +47,6 @@ Responsáveis:
 
 Arte: Ayla Yorinori Nishino
 
-Roteiro:
+Roteiro: João Arthur Miguel Ribeiro
 
 Programação: [Gustavo M. Gregorio](https://github.com/gustakowai)
