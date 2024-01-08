@@ -240,7 +240,9 @@ function textToBox(cena, balao) {
     let isRecepcionista = spanClassList.contains("Recepcionista");
     let isTraficante = spanClassList.contains("traficante");
     let isVazio = spanClassList.contains("vazio");
-    
+    let isAssustada = spanClassList.contains("assustada");
+    let isMedo1 = spanClassList.contains("medo1");
+    let isMedo2 = spanClassList.contains("medo2");
     
     //chama as funções
     //sprites dos personagens:
@@ -264,6 +266,15 @@ function textToBox(cena, balao) {
     }
     if (isIrritada) {
       changeSpriteChar("irritada");
+    }
+    if (isAssustada) {
+      changeSpriteChar("assustada");
+    }
+    if (isMedo1) {
+      changeSpriteChar("medo1");
+    }
+    if (isMedo2) {
+      changeSpriteChar("medo2");
     }
     if (isMeh) {
       changeSpriteChar("meh");
