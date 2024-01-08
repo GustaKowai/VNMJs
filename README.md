@@ -36,12 +36,13 @@ Planos futuros:
   - Mapa
 - História:
   - Diferentes histórias para diferentes runs, mudando o traidor
-  - Possíveis histórias para novos conquistáveis 
+  - Possíveis histórias para novos conquistáveis
 - Programação:
   - Programação do mapa
   - Inventário
   - Sistema para aleatorizar quem é o traidor no início da run
   - Sistema para escolha de gênero do jogador
+  - Separar melhor as funções em arquivos distintos.
 
 Responsáveis:
 
