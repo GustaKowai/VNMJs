@@ -38,12 +38,13 @@
             { "string": " ", "speed": 60, "classes": ["feliz"] },
             { "string": "Calma! toma aqui", "speed": 60 }   ,  
             { "string": "*Ela tira um maço de dinheiro da mochila*", "speed": 60 , "classes": ["Narrador"] },
-            { "string": "Me vê dois picolés!", "speed": 60 }
+            { "string": "Me vê três
+                picolés!", "speed": 60 }
           ],[ 
             { "string": " ", "speed": 60, "classes": ["Vovo"] },
             { "string": "C-claro, s-s-só preciso pegar eles ali na p-parte de trás", "speed": 60 }
           ],[ 
-            { "string": "*Vocês vão até a parte de trás do caminhão, ele entra, e sai com dois picolés de baunilha*", "speed": 60 , "classes": ["Narrador"] }
+            { "string": "*Vocês vão até a parte de trás do caminhão, ele entra, e sai com três picolés de baunilha*", "speed": 60 , "classes": ["Narrador"] }
           ],[ 
             { "string": " ", "speed": 60, "classes": ["Vovo"] },
             { "string": "A-aqui o troco", "speed": 60 }

@@ -3,14 +3,25 @@
         "id": 1,
         "background":"posto",
         "dialogos": {
-          "numeroBaloes":7,
+          "numeroBaloes":12,
           "numeroEscolhas":2,
           "personagem": "Katarina",
           "texto": [[
             { "string": " ", "speed": 60, "classes": ["feliz"] },
             { "string": "Nunca se sabe quando você irá precisar de uma arma improvisada, e além disso, você já quebrou uma garrafa para uma briga de bar? é super divertido", "speed": 60 }
           ],[
-            { "string": "Bem, acho que a gente ainda tem um tempo, bora naquele posto de gasolina abandonado e depois a gente sobe naquela torre telefonica pra ter uma visão melhor dos arredores e começar a se preparar", "speed": 60 }
+            { "string": " ", "speed": 60, "classes": ["default"] },
+            { "string": "Bem, acho que a gente ainda tem um tempo", "speed": 60 } 
+          ],[
+            { "string": "Aliás, acho que você não deve ter a menor ideia do que a gente está fazendo aqui", "speed": 60 }
+          ],[
+            { "string": "Basicamente, teu chefe, o gato falante, está desconfiando de uma empresa de sorvetes, ele acha que ela está realizando tráfico ilegal de queijos para a sede do governo", "speed": 60 } 
+          ],[
+            { "string": "Você sabe, estamos sendo governados por um rato, deve ser mais barato traficar do que lidar com todos os trâmites legais e impostos para a importação desses queijos chiques para cá", "speed": 60 } 
+          ],[
+            { "string": "Ou talvez o gatovaldo só queria tomar um sorvetinho e não estava sabendo pedir, então, caso ele esteja errado, pelo menos sairemos daqui com picolés!", "speed": 60 } 
+          ],[
+            { "string": "Mas antes, bora naquele posto de gasolina abandonado e depois a gente sobe naquela torre telefonica pra ter uma visão melhor dos arredores e começar a se preparar", "speed": 60 }
           ],[
             { "string": "*Vocês andam até o posto de gasolina abandonado...*", "speed": 60, "classes": ["Narrador"] }
           ],[

@@ -21,6 +21,7 @@ var speeds = {
 }
 var balao = 0
 var letras = [];
+//Le o arquivo Json e ja chama a função para colocar o texto na caixa de texto
 async function readJson(path,balao){
     console.log(path)
     removeLastText();
@@ -39,6 +40,7 @@ async function readJson(path,balao){
         if(balao == nBalao-1){
             nxtBtn.disabled = true;
         }
+      //Seleciona para quais cenas que as escolhas podem levar
         paraCena1 = value.escolhas.escolha1.paraCena;
         paraCena2 = value.escolhas.escolha2.paraCena;
         paraCena3 = value.escolhas.escolha3.paraCena;
@@ -54,6 +56,7 @@ function clicado(){
     console.log("cliquei");
 }
 //readJson('cena1.json')
+//Botão inicialmente para começar o jogo. Atualmente é usado para testes de cenas específicas
 startBtn.addEventListener('click',function(){
     if (add > 0){removeLastText()}
     console.log("cliquei aqui")
@@ -62,18 +65,23 @@ startBtn.addEventListener('click',function(){
     document.getElementById("start").disabled = true;
     nxtBtn.disabled = false;
 });
+//Passa para o próximo balão de fala
 nxtBtn.addEventListener('click',function(){
     removeLastText();
     balao+=1
     console.log(add)
     readJson(atual,balao);
 });
+//Desativa os botões de escolha depois que um deles é escolhido.
 function escolhido(num) {
       document.getElementById("escolha1").disabled = true;
       document.getElementById("escolha2").disabled = true;
       document.getElementById("escolha3").disabled = true;
       document.getElementById("escolha4").disabled = true;
+  //Vai para a cena que a escolha determinou.
       if(num == 1){
+        //No caso da escolha 1, determina também se a pessoa está no fim da cena e se é a primeira vez que alguém chega no final de uma cena.
+        //No futuro será usado para saber se o dia acabou.
         if(paraCena1 == "interludio1"||paraCena1 == "interludio2"){
          if(jaJogou){
             readJson('cenafinal.json',0);
@@ -91,6 +99,7 @@ function escolhido(num) {
       num == 3? readJson('cena'+paraCena3+'.json',0):console.log("nao foi para a 3");
       num == 4? readJson('cena'+paraCena4+'.json',0):console.log("nao foi para a 4");
     }
+//Event Listeners das opções
 choose1.addEventListener('click',function(){
     removeLastText();
     balao=0;
@@ -112,5 +121,5 @@ choose4.addEventListener('click',function(){
     escolhido(4);
 });
 //revealOneCharacter(letras);
-
+//Começa o jogo assim que a tela termina de carregar.
 window.onload = readJson('cena0.json',0);
