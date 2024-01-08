@@ -13,7 +13,7 @@ Objetivos em andamento:
   - Correções para as primeiras missões
 - Programação:
   - Botão de acelerar texto
-  - Correção da página inicial
+  - Correção da página inicial usando imagem xml responsiva
 
 Em breve:
 
