@@ -7,13 +7,13 @@ Objetivos em andamento:
 - Arte:
   - Cláudia
   - CG de algumas cenas
-  - Mais expressões para a Alessandra
+  - Mais expressões para a Alessandra (Concluído)
 - História
-  - Segunda missão com cada uma das personagens
-  - Correções para as primeiras missões
+  - Segunda missão com cada uma das personagens (60% Katarina 2)
+  - Correções para as primeiras missões (Em revisão)
 - Programação:
   - Botão de acelerar texto
-  - Correção da página inicial usando imagem xml responsiva
+  - Correção da página inicial usando imagem xml responsiva (Resolvido temporariamente)
 
 Em breve:
 
