@@ -12,7 +12,7 @@ Objetivos em andamento:
   - Segunda missão com cada uma das personagens (60% Katarina 2)
   - Correções para as primeiras missões (Em revisão)
 - Programação:
-  - Botão de acelerar texto
+  - Botão de acelerar texto (completo)
   - Correção da página inicial usando imagem xml responsiva (Resolvido temporariamente)
 
 Em breve:

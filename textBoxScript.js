@@ -8,6 +8,16 @@ var speeds = {
   normal: 80,
   fast: 40
 }
+var faston = 1;
+//função para determinar a velocidade do texto.
+function determinaVelocidade(){
+  const fastBtn = document.getElementById('fastBtn');
+  if (fastBtn.innerHTML == "1x"){
+    faston = 1;
+  }else{
+    faston = 10;
+  }
+}
 var acabouBalao = false
 //remove o texto do balão antes de colocar novo texto
 function removeLastText() {
@@ -192,7 +202,9 @@ function textToBox(cena, balao) {
       next.span.classList.add(c);
     });
     var delay = next.isSpace ? 0 : next.delayAfter;
-    delay = delay/10;
+    //determina o delay!!!
+    determinaVelocidade();
+    delay = delay/faston;
     if (list.length > 0) {
       setTimeout(function () {
         revealOneCharacter(list, acabouBalao);

@@ -2,6 +2,7 @@ import {textToBox,removeLastText,textToChoices} from "./textBoxScript.js"
 //,changeSpriteChar,revealOneCharacter
 const nxtBtn = document.getElementById('nextText');
 const startBtn = document.getElementById('start');
+const fastBtn = document.getElementById('fastBtn');
 const choose1 = document.getElementById('escolha1');
 const choose2 = document.getElementById('escolha2');
 const choose3 = document.getElementById('escolha3');
@@ -12,8 +13,9 @@ var paraCena1 = "";
 var paraCena2 = "";
 var paraCena3 = "";
 var paraCena4 = "";
-var nBalao = 0
-var atual = ""
+var nBalao = 0;
+var atual = "";
+var faston = 1;
 var speeds = {
   slow: 120,
   normal: 80,
@@ -55,6 +57,13 @@ async function readJson(path,balao){
 function clicado(){
     console.log("cliquei");
 }
+fastBtn.addEventListener('click',function(){
+    if (fastBtn.innerHTML == "1x"){
+        fastBtn.innerHTML = "10x >>"
+    }else{
+        fastBtn.innerHTML = "1x"
+    }
+})
 //readJson('cena1.json')
 //Botão inicialmente para começar o jogo. Atualmente é usado para testes de cenas específicas
 startBtn.addEventListener('click',function(){
